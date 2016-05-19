@@ -57,6 +57,21 @@ nav ul li {
   font-family: 'Roboto', sans-serif;
 }
 
+.div-one {
+    background-image: url('http://i.imgur.com/zdZtCHz.jpg');
+    background-repeat: no-repeat;
+}
+
+.div-two {
+    background-image: url('http://i.imgur.com/zdZtCHz.jpg');
+    background-repeat: no-repeat;
+}
+
+.div-three {
+    background-image: url('http://i.imgur.com/zdZtCHz.jpg');
+    background-repeat: no-repeat;
+}
+
 footer ul {
   padding: 0px;
 }
