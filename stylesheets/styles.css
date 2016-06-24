@@ -17,8 +17,14 @@ body {
   font-family: 'Contrail One', cursive;
 }
 
-.chunk--chelsea {
-  font-family: 'Chelsea Market', cursive;
+.line--closing {
+  font-size: 24px;
+  font-family: 'Chau Philomene One', sans-serif;
+}
+
+.line--updated {
+  font-size: 16px;
+  font-family: 'IM Fell DW Pica SC', serif;
 }
 
 .list--mono {
