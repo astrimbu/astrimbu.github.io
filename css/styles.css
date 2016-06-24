@@ -1,3 +1,36 @@
 body {
   background: #222;
+  color: #fff;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.headline--neuton {
+  font-family: 'Neuton', serif;
+}
+
+.line--contrail {
+  font-size: 18px;
+  font-family: 'Contrail One', cursive;
+}
+
+.chunk--chelsea {
+  font-family: 'Chelsea Market', cursive;
+}
+
+.list--mono {
+  font-size: 26px;
+  font-family: 'VT323', monospace;
+}
+
+.list__hidden {
+  display: none;
+  padding-left: 0;
+}
+
+.list--red {
+  color: #e30000;
 }
