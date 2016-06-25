@@ -32,6 +32,12 @@ body {
   font-family: 'VT323', monospace;
 }
 
+.list {
+  font-size: 26px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
 .list__hidden {
   display: none;
   padding-left: 0;
