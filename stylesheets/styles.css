@@ -64,13 +64,21 @@ body {
   cursor: pointer;
 }
 
-.green {
+.yellow {
   /*color: #e30000;*/
-  color: #00f00f;
+  color: #ff0;
+}
+
+.link {
+  color: #ff0;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
 }
 
 .eastern-bullet {
-  list-style-type: katakana-iroha;
+  list-style-type: katakana;
 }
 
 .small-text {
