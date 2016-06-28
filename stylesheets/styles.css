@@ -64,8 +64,13 @@ body {
   cursor: pointer;
 }
 
-.red {
-  color: #e30000;
+.green {
+  /*color: #e30000;*/
+  color: #00f00f;
+}
+
+.eastern-bullet {
+  list-style-type: katakana-iroha;
 }
 
 .small-text {
