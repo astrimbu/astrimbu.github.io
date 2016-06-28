@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
 }
 
+.post {
+  font-size: 16px;
+}
+
 .inverse {
   background: #ddd;
   color: #000;
@@ -21,6 +25,7 @@ body {
 }
 
 .headline {
+  font-weight: normal;
   font-size: 40px;
   font-family: 'IM Fell DW Pica SC', serif;
   margin: 100px 0 20px 0;
@@ -34,6 +39,7 @@ body {
 
 .contrail {
   font-family: 'Contrail One', cursive;
+  font-weight: inherit;
 }
 
 .updated {
@@ -50,6 +56,7 @@ body {
 }
 
 .list {
+  font-weight: normal;
   padding-left: 0;
   list-style-type: none;
   cursor: auto;
@@ -80,6 +87,6 @@ body {
   list-style-type: katakana;
 }
 
-.small-text {
+.small-li {
   font-size: 16px;
 }
