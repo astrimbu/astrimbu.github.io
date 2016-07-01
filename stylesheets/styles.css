@@ -43,6 +43,7 @@ body {
 }
 
 .updated {
+  padding-top: 10px;
   font-size: 16px;
   font-family: 'IM Fell DW Pica SC', serif;
 }
@@ -73,6 +74,10 @@ body {
 
 .yellow {
   color: #ff0;
+}
+
+.dark {
+  color: #333;
 }
 
 .link {
