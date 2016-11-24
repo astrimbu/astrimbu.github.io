@@ -25,10 +25,10 @@ body {
 }
 
 .headline {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 40px;
-  font-family: 'IM Fell DW Pica SC', serif;
-  margin: 100px 0 20px 0;
+  font-family: 'Ubuntu Mono', fixed-width;
+  margin: 100px 0 30px 0;
 }
 
 .line {
@@ -50,7 +50,12 @@ body {
 .updated {
   padding-top: 10px;
   font-size: 16px;
-  font-family: 'IM Fell DW Pica SC', serif;
+  font-family: 'Ubuntu Mono', fixed-width;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 60px;
 }
 
 .mono {
