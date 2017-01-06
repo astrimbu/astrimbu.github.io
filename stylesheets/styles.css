@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
 }
 
+.center {
+  text-align: center;
+}
+
 .post {
   font-size: 16px;
 }
@@ -25,6 +29,7 @@ body {
 }
 
 .headline {
+  text-align: center;
   font-weight: bold;
   font-size: 40px;
   font-family: 'Ubuntu Mono', fixed-width;
@@ -49,13 +54,14 @@ body {
 
 .updated {
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Ubuntu Mono', fixed-width;
 }
 
 .bottom {
   position: fixed;
-  bottom: 60px;
+  bottom: 10px;
+  left: 10px;
 }
 
 .mono {
