@@ -3,17 +3,8 @@ body {
   color: #fff;
 }
 
-.content {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .center {
   text-align: center;
-}
-
-.post {
-  font-size: 16px;
 }
 
 .inverse {
@@ -26,14 +17,6 @@ body {
   background: #666;
   color: #ff0;
   cursor: pointer;
-}
-
-.headline {
-  text-align: center;
-  font-weight: bold;
-  font-size: 40px;
-  font-family: 'Ubuntu Mono', fixed-width;
-  margin: 100px 0 30px 0;
 }
 
 .line {
@@ -58,34 +41,46 @@ body {
   font-family: 'Ubuntu Mono', fixed-width;
 }
 
-.bottom {
+/************
+ last updated
+ ************/
+.last-updated {
   position: fixed;
   bottom: 10px;
   left: 10px;
 }
 
+/*************
+ bottom center
+ *************/
+.bottom-center {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+}
+.bottom-center-wrapper {
+  position: relative;
+  left: -50%;
+}
+
+/**********
+ main image
+ **********/
+.tree {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+}
+.tree-wrapper {
+  position: relative;
+  left: -50%;
+}
+.tree img {
+  opacity: 0.8;
+}
+
 .mono {
   font-family: 'VT323', monospace;
-}
-
-.big-text {
-  font-size: 26px;
-}
-
-.list {
-  font-weight: normal;
-  padding-left: 0;
-  list-style-type: none;
-  cursor: auto;
-}
-
-.list__hidden {
-  display: none;
-  padding-left: 0;
-}
-
-.parent {
-  cursor: pointer;
 }
 
 .yellow {
@@ -104,10 +99,3 @@ body {
   text-decoration: underline;
 }
 
-.eastern-bullet {
-  list-style-type: katakana;
-}
-
-.small-li {
-  font-size: 16px;
-}
