@@ -1,0 +1,83 @@
+$contrail: 'Contrail One', cursive;
+$ubuntu: 'Ubuntu Mono', fixed-width;
+$yellow: #ff0;
+$dark: #333;
+
+body {
+  background: #222;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.inverse {
+  background: #ddd;
+  color: #000;
+  padding: 0 5px 0 3px;
+  margin: 0 4px 0 4px;
+}
+.inverse:hover {
+  background: #666;
+  color: #ff0;
+  cursor: pointer;
+}
+
+.line {
+  font-size: 18px;
+  line-height: 1.8em;
+  margin: 0 0 0 0;
+}
+
+.contrail {
+  font-family: $contrail;
+  font-weight: inherit;
+}
+
+.nslink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.updated {
+  padding-top: 10px;
+  font-size: 12px;
+  font-family: $ubuntu;
+}
+
+.last-updated {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-center {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+}
+.bottom-center-wrapper {
+  position: relative;
+  left: -50%;
+}
+
+.middle {
+	position: fixed;
+	bottom: 60%;
+	left: 50%;
+  font-family: $ubuntu;
+}
+.middle-wrapper {
+	position: relative;
+	left: -50%;
+}
+
+.link {
+  color: #ff0;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
