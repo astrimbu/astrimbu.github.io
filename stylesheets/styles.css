@@ -1,6 +1,7 @@
-body {
+body, main, html {
   background: #222;
-  color: #fff; }
+  color: #fff;
+  height: 95%; }
 
 .center {
   text-align: center; }
@@ -39,6 +40,11 @@ body {
   bottom: 10px;
   left: 10px; }
 
+.bottom-right {
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
 .bottom-center {
   position: fixed;
   bottom: 10px;
@@ -49,14 +55,42 @@ body {
   left: -50%; }
 
 .middle {
-  position: fixed;
-  bottom: 60%;
+  position: relative;
+  top: 10%;
   left: 50%;
-  font-family: "Ubuntu Mono", fixed-width; }
+  width: 210px;
+  font-family: "Ubuntu Mono", fixed-width;
+  padding-bottom: 40px; }
 
 .middle-wrapper {
   position: relative;
+  max-width: 300px;
   left: -50%; }
+
+.tip {
+  padding-bottom: 10px;
+  background-image: linear-gradient(to bottom, #333, #333), linear-gradient(to bottom, #111, #111);
+  background-clip: content-box, padding-box; }
+  .tip p {
+    margin: 10px;
+    padding: 10px 10px 0 10px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px #111; }
+  .tip ul {
+    padding: 5px 20px 5px 30px; }
+
+.js {
+  color: #ff0; }
+
+.dg {
+  color: #43D58C; }
+
+.vim {
+  color: #019833; }
+
+.dota {
+  color: #ED3B1C; }
 
 .link {
   color: #ff0;

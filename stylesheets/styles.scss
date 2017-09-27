@@ -1,11 +1,18 @@
 $contrail: 'Contrail One', cursive;
 $ubuntu: 'Ubuntu Mono', fixed-width;
 $yellow: #ff0;
+$light: #888;
 $dark: #333;
+$verydark: #111;
 
-body {
+$dg: #43D58C;
+$vim: #019833;
+$dota: #ED3B1C;
+
+body, main, html {
   background: #222;
   color: #fff;
+  height: 95%;
 }
 
 .center {
@@ -52,6 +59,12 @@ body {
   left: 10px;
 }
 
+.bottom-right {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
 .bottom-center {
   position: fixed;
   bottom: 10px;
@@ -63,15 +76,39 @@ body {
 }
 
 .middle {
-	position: fixed;
-	bottom: 60%;
+  position: relative;
+  top: 10%;
 	left: 50%;
+  width: 210px;
   font-family: $ubuntu;
+  padding-bottom: 40px;
 }
 .middle-wrapper {
 	position: relative;
+  max-width: 300px;
 	left: -50%;
 }
+
+.tip {
+  padding-bottom: 10px;
+  background-image: linear-gradient(to bottom, $dark, $dark), linear-gradient(to bottom, $verydark, $verydark);
+  background-clip: content-box, padding-box;
+  p {
+    margin: 10px;
+    padding: 10px 10px 0 10px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px $verydark;
+  }
+  ul {
+    padding: 5px 20px 5px 30px;
+  }
+}
+
+.js {color: $yellow;}
+.dg {color: $dg;}
+.vim {color: $vim;}
+.dota {color: $dota;}
 
 .link {
   color: #ff0;
