@@ -1,7 +1,10 @@
 body, main, html {
   background: #222;
   color: #fff;
-  height: 95%; }
+  height: 95%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
 
 .center {
   text-align: center; }
