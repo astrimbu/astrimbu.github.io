@@ -1,5 +1,5 @@
 body, main, html {
-  background: #222;
+  background: #2a2a2a;
   color: #fff;
   height: 95%;
   width: 100%;
@@ -61,39 +61,68 @@ body, main, html {
   position: relative;
   top: 10%;
   left: 50%;
-  width: 210px;
+  width: 600px;
   font-family: "Ubuntu Mono", fixed-width;
   padding-bottom: 40px; }
 
 .middle-wrapper {
   position: relative;
-  max-width: 300px;
+  text-align: center;
+  max-width: 800px;
   left: -50%; }
 
 .tip {
-  padding-bottom: 10px;
-  background-image: linear-gradient(to bottom, #333, #333), linear-gradient(to bottom, #111, #111);
-  background-clip: content-box, padding-box; }
-  .tip p {
-    margin: 10px;
-    padding: 10px 10px 0 10px;
+  padding-bottom: 5px;
+  background-image: linear-gradient(to bottom, #333, #333), linear-gradient(to bottom, #222, #222);
+  background-clip: content-box, padding-box;
+  margin: 30px; }
+  .tip h2 {
+    background-color: #444;
+    margin: 0;
+    padding: 5px 0 5px 0;
     font-weight: bold;
-    text-align: center;
-    text-shadow: 2px 2px #111; }
+    text-align: center; }
   .tip ul {
-    padding: 5px 20px 5px 30px; }
+    padding: 5px 0 5px 0;
+    margin: 10px 0 10px 0; }
+    .tip ul .topic {
+      font-weight: bold; }
+    .tip ul li {
+      list-style-type: none; }
 
-.js {
-  color: #ff0; }
+.one ul > .topic {
+  color: #00ff80; }
 
-.dg {
-  color: #43D58C; }
+.one h2 {
+  color: white;
+  background-color: #0080ff; }
 
-.vim {
-  color: #019833; }
+.two ul > .topic {
+  color: #0ff; }
 
-.dota {
-  color: #ED3B1C; }
+.two h2 {
+  color: white;
+  background-color: #ff0080; }
+
+.clear {
+  height: 10px;
+  background-color: #2a2a2a; }
+
+.clear-big {
+  height: 12px;
+  background-color: #2a2a2a; }
+
+.shadow {
+  height: 5px;
+  background-color: #222; }
+
+.shadow1 {
+  height: 6px;
+  background-color: #0040aa; }
+
+.shadow2 {
+  height: 6px;
+  background-color: #880050; }
 
 .link {
   color: #ff0;

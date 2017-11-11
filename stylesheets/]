@@ -4,20 +4,18 @@ $ubuntu: 'Ubuntu Mono', fixed-width;
 $lightred: #e88f80;
 $red: #ED3B1C;
 
-$title1: #0080ff;
-$shadow1: #0040aa;
-$topic1: #00ff80;
+$title-one: #0080ff;
+$topic-one: #00ff80;
 
-$title2: #ff0080;
-$shadow2: #880050;
-$topic2: #0ff;
+$title-two: #ff0080;
+$topic-two: #0ff;
 
 $verylight: #888;
-$light: #444;
+$light: #0e0e0e;
 $dark: #333;
-$verydark: #222;
+$verydark: #111;
 
-$background: #2a2a2a;
+$background: #222;
 
 
 
@@ -94,7 +92,7 @@ body, main, html {
   position: relative;
   top: 10%;
 	left: 50%;
-  width: 600px;
+  width: 800px;
   font-family: $ubuntu;
   padding-bottom: 40px;
 }
@@ -106,7 +104,7 @@ body, main, html {
 }
 
 .tip {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   background-image: linear-gradient(to bottom, $dark, $dark), 
     linear-gradient(to bottom, $verydark, $verydark);
   background-clip: content-box, padding-box;
@@ -117,6 +115,7 @@ body, main, html {
     padding: 5px 0 5px 0;
     font-weight: bold;
     text-align: center;
+    text-shadow: 2px 2px $verydark;
   }
   ul {
     padding: 5px 0 5px 0;
@@ -130,32 +129,15 @@ body, main, html {
   }
 }
 
-.one ul>.topic { color: $topic1; } 
-.one h2 { color: white; 
-    background-color: $title1; }
-.two ul>.topic { color: $topic2; }
-.two h2 { color: white;
-    background-color: $title2; }
+.one ul>.topic { color: $topic-one; } 
+.one h2 { color: $title-one; }
+.two ul>.topic { color: $topic-two; }
+.two h2 { color: $title-two; }
+
 
 .clear {
-  height: 10px;
-  background-color: $background;
-}
-.clear-big {
-  height: 12px;
-  background-color: $background;
-}
-.shadow {
   height: 5px;
-  background-color: $verydark;
-}
-.shadow1 {
-  height: 6px;
-  background-color: $shadow1;
-}
-.shadow2 {
-  height: 6px;
-  background-color: $shadow2;
+  background-color: $background;
 }
 
 .link {
