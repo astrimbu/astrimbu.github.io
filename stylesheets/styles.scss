@@ -1,27 +1,5 @@
-$contrail: 'Contrail One', cursive;
-$ubuntu: 'Ubuntu Mono', fixed-width;
-
-$lightred: #e88f80;
-$red: #ED3B1C;
-
-$title1: #0080ff;
-$shadow1: #0040aa;
-$topic1: #00ff80;
-
-$title2: #ff0080;
-$shadow2: #880050;
-$topic2: #0ff;
-
-$shadow3: #aa8d00; 
-
-$verylight: #888;
-$light: #444;
-$dark: #333;
-$verydark: #222;
-
-$background: #2a2a2a;
-
-
+@import 'variables';
+@import 'cesar';
 
 body, main, html {
   background: $background;
@@ -62,17 +40,6 @@ body, main, html {
 .nslink {
   color: #fff;
   text-decoration: none;
-}
-
-.home-link-1 {
-  color: #fff;
-  text-decoration: none;
-  &:hover { color: #888; }
-}
-.home-link-2 {
-  color: #fff;
-  text-decoration: none;
-  &:hover { color: $shadow2 }
 }
 
 .updated {

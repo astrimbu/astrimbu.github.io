@@ -1,3 +1,64 @@
+/* Main styles */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+.text {
+  fill: none;
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 250;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+}
+.text:nth-child(4n + 1) {
+  stroke: #0040aa;
+  -webkit-animation-delay: -1.5s;
+  animation-delay: -1.5s;
+}
+.text:nth-child(4n + 2) {
+  stroke: #880050;
+  -webkit-animation-delay: -3s;
+  animation-delay: -3s;
+}
+.text:nth-child(4n + 3) {
+  stroke: #aa8d00;
+  -webkit-animation-delay: -4.5s;
+  animation-delay: -4.5s;
+}
+.text:nth-child(4n + 4) {
+  stroke: white;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -320;
+  }
+}
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -320;
+  }
+}
+/* Other styles */
+html, body {
+  height: 100%;
+}
+
+text {
+  background: #111;
+  background-size: 0.2em 100%;
+  font: 5em/1 Open Sans, Impact;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 body, main, html {
   background: #2a2a2a;
   color: #fff;
@@ -38,22 +99,6 @@ body, main, html {
 .nslink {
   color: #fff;
   text-decoration: none;
-}
-
-.home-link-1 {
-  color: #fff;
-  text-decoration: none;
-}
-.home-link-1:hover {
-  color: #888;
-}
-
-.home-link-2 {
-  color: #fff;
-  text-decoration: none;
-}
-.home-link-2:hover {
-  color: #880050;
 }
 
 .updated {
