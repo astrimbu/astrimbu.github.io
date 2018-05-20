@@ -1,5 +1,30 @@
+<<<<<<< HEAD
 @import 'variables';
 @import 'cesar';
+=======
+$contrail: 'Contrail One', cursive;
+$ubuntu: 'Ubuntu Mono', fixed-width;
+
+$lightred: #e88f80;
+$red: #ED3B1C;
+
+$title1: #0080ff;
+$shadow1: #0040aa;
+$topic1: #00ff80;
+
+$title2: #ff0080;
+$shadow2: #880050;
+$topic2: #0ff;
+
+$verylight: #888;
+$light: #444;
+$dark: #333;
+$verydark: #222;
+
+$background: #2a2a2a;
+
+
+>>>>>>> parent of 13b6faf... minimized homepage to just some links
 
 body, main, html {
   background: $background;
