@@ -140,26 +140,6 @@ body, main, html {
   }
 }
 
-.home-link {
-  padding-bottom: 0;
-  background-clip: content-box, padding-box;
-  margin: 30px;
-
-  h2 {
-    margin: 0;
-    padding: 5px 0 5px 0;
-    font-weight: bold;
-    text-align: center;
-    &>a { 
-      color: #fff; 
-      text-decoration: none;
-    }
-    &>a.link-1 { &:hover { color: $shadow1; } }
-    &>a.link-2 { &:hover { color: $shadow2; } }
-  }
-
-}
-
 .one ul>.topic { color: $topic1; } 
 .one h2 { color: white; 
     background-color: $title1; }
@@ -186,10 +166,6 @@ body, main, html {
 .shadow2 {
   height: 6px;
   background-color: $shadow2;
-}
-.shadow3 {
-  height: 10px;
-  background-color: $shadow3;
 }
 
 .link {
