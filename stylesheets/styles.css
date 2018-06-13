@@ -11,6 +11,22 @@ body, main, html {
   text-align: center;
 }
 
+.middle-wrapper {
+  left: 25%;
+  width: 50%;
+  top: 10%;
+  position: absolute;
+  text-align: center;
+  border: 5px dashed #333;
+  font-family: "Ubuntu Mono", fixed-width;
+}
+
+.middle {
+  position: relative;
+  text-align: center;
+  max-width: 800px;
+}
+
 .title {
   width: 50%;
   margin: 0 auto;
@@ -43,6 +59,14 @@ body, main, html {
 .nslink {
   color: #fff;
   text-decoration: none;
+}
+
+.minimal-list {
+  list-style: none;
+  padding: 0;
+}
+.minimal-list li {
+  margin: 0 0 15px 0;
 }
 
 .updated {
