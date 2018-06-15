@@ -3,6 +3,7 @@
   background-image: linear-gradient(to bottom, #333, #333), linear-gradient(to bottom, #222, #222);
   background-clip: content-box, padding-box;
   margin: 30px;
+  font-size: 0.8rem;
 }
 .tip h2 {
   background-color: #444;
@@ -14,9 +15,6 @@
 .tip ul {
   padding: 5px 0 5px 0;
   margin: 10px 0 10px 0;
-}
-.tip ul .topic {
-  font-weight: bold;
 }
 .tip ul li {
   list-style-type: none;

@@ -6,6 +6,7 @@
     linear-gradient(to bottom, $verydark, $verydark);
   background-clip: content-box, padding-box;
   margin: 30px;
+  font-size: 0.8rem;
   h2 {
     background-color: $light;
     margin: 0;
@@ -16,9 +17,6 @@
   ul {
     padding: 5px 0 5px 0;
     margin: 10px 0 10px 0;
-    .topic {
-      font-weight: bold;
-    }
     li {
       list-style-type: none;
     }
