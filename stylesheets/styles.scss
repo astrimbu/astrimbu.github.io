@@ -25,6 +25,7 @@ body, main, html {
 .middle {
 	position: relative;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 .title {
@@ -40,6 +41,18 @@ body, main, html {
 }
 .inverse:hover {
   background: #666;
+  color: #ff0;
+  cursor: pointer;
+}
+
+.dark-inverse {
+  background: $dark;
+  color: #666;
+  padding: 0 5px 0 3px;
+  margin: 0 4px 0 4px;
+}
+.dark-inverse:hover {
+  background: $verydark;
   color: #ff0;
   cursor: pointer;
 }
@@ -74,7 +87,13 @@ body, main, html {
   font-family: $ubuntu;
 }
 
-.last-updated {
+.top-left {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-left {
   position: fixed;
   bottom: 10px;
   left: 10px;
