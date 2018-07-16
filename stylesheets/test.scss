@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'RuneScape UF';
+  src: url('runescape_uf.ttf') format('truetype');
+}
+
+$runescape: 'RuneScape UF', sans-serif;
+
+#rune { font-family: $runescape; }
