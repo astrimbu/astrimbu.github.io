@@ -19,3 +19,75 @@ ul {
 ul li {
   padding: 2px 0 2px 0;
 }
+
+.av {
+  color: white;
+}
+
+.av-x {
+  color: blue;
+}
+
+.harp {
+  color: yellow;
+}
+
+.sh {
+  color: blue;
+}
+
+.sh-r {
+  color: red;
+}
+
+.r3 {
+  color: lightgreen;
+}
+
+.r3-e {
+  color: limegreen;
+}
+
+.leo {
+  color: white;
+}
+
+.tb-l {
+  color: white;
+}
+
+.tb {
+  color: red;
+}
+
+.tb3 {
+  color: pink;
+}
+
+.rr {
+  color: yellow;
+}
+
+.fb {
+  color: lightblue;
+}
+
+.fd3 {
+  color: purple;
+}
+
+.g-tdb {
+  color: purple;
+}
+
+.tdb {
+  color: purple;
+}
+
+.bst {
+  color: blue;
+}
+
+.orc {
+  color: blue;
+}
