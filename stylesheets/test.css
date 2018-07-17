@@ -5,3 +5,7 @@
 #rune {
   font-family: "RuneScape UF", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
