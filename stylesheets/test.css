@@ -5,8 +5,7 @@
 #rune {
   font-family: "RuneScape UF", sans-serif;
 }
-
-h2 {
+#rune h2 {
   text-shadow: 2px 2px 2px #000;
   color: cyan;
 }
