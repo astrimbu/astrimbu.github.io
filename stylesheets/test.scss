@@ -8,13 +8,13 @@ $runescape: 'RuneScape UF', sans-serif;
 #rune {
   font-family: $runescape;
   h2 {
-    text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 0 #000;
     color: cyan;
   }
 }
 
 ul {
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 0 #000;
   list-style: none;
   padding: 0;
   li { padding: 2px 0 2px 0; }

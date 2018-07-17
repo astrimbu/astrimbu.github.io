@@ -6,12 +6,12 @@
   font-family: "RuneScape UF", sans-serif;
 }
 #rune h2 {
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 0 #000;
   color: cyan;
 }
 
 ul {
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 0 #000;
   list-style: none;
   padding: 0;
 }
