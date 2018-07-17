@@ -7,7 +7,7 @@ $runescape: 'RuneScape UF', sans-serif;
 
 #rune {
   font-family: $runescape;
-  h2 {
+  &.h2 {
     text-shadow: 2px 2px 0 #000;
     color: cyan;
   }
