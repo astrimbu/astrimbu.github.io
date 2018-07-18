@@ -7,7 +7,7 @@
 }
 #rune h2 {
   text-shadow: 2px 2px 0 #000;
-  color: cyan;
+  color: white;
 }
 
 ul {
@@ -20,73 +20,73 @@ ul li {
 }
 
 .av {
-  color: white;
+  color: #d5d7e3;
 }
 
 .av-x {
-  color: blue;
+  color: #7c96c8;
 }
 
 .harp {
-  color: yellow;
+  color: #daf199;
 }
 
 .sh {
-  color: blue;
+  color: #4e72c1;
 }
 
 .sh-r {
-  color: red;
+  color: #4e72c1;
 }
 
 .r3 {
-  color: lightgreen;
+  color: #c8ca8f;
 }
 
 .r3-e {
-  color: limegreen;
+  color: #c8ca8f;
 }
 
 .leo {
-  color: white;
+  color: #bdbebb;
 }
 
 .tb-l {
-  color: white;
+  color: #c7c9cc;
 }
 
 .tb {
-  color: red;
+  color: #a92a35;
 }
 
 .tb3 {
-  color: pink;
+  color: #f9536b;
 }
 
 .rr {
-  color: yellow;
+  color: #f3f549;
 }
 
 .fb {
-  color: lightblue;
+  color: #42c090;
 }
 
 .fd3 {
-  color: purple;
+  color: #6a85ac;
 }
 
 .g-tdb {
-  color: purple;
+  color: #76326e;
 }
 
 .tdb {
-  color: purple;
+  color: #5b5874;
 }
 
 .bst {
-  color: blue;
+  color: #043575;
 }
 
 .orc {
-  color: blue;
+  color: #00659a;
 }
