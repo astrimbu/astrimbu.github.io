@@ -1,92 +1,153 @@
 @font-face {
-  font-family: "RuneScape UF";
+  font-family: 'RuneScape UF';
   src: url("runescape_uf.ttf") format("truetype");
 }
+
+/* line 8, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 #rune {
   font-family: "RuneScape UF", sans-serif;
 }
+
+/* line 11, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 #rune h2 {
-  text-shadow: 2px 2px 0 #000;
+  font-weight: normal;
+  text-decoration: underline;
   color: white;
+  margin: 0.5em 0 0.5em 0;
 }
 
+/* line 18, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
+#rune a.info {
+  position: relative;
+  z-index: 24;
+  text-decoration: none;
+}
+
+/* line 23, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
+#rune a.info span {
+  display: none;
+}
+
+/* line 24, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
+#rune a.info:hover {
+  z-index: 25;
+}
+
+/* line 27, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
+#rune a.info:hover span {
+  /*the span will display just on :hover state*/
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -0.7em;
+  transform: translate(-50%);
+  width: 4.5em;
+  border: 0px;
+  color: white;
+  text-shadow: 2px  2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+}
+
+/* line 47, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 ul {
   text-shadow: 1px 1px 0 #000;
   list-style: none;
   padding: 0;
+  margin: 0.5em 0 1.5em 0;
 }
+
+/* line 52, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 ul li {
   padding: 2px 0 2px 0;
 }
 
+/* line 55, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .av {
   color: #d5d7e3;
 }
 
+/* line 56, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .av-x {
   color: #7c96c8;
 }
 
+/* line 57, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .harp {
   color: #b2b968;
 }
 
+/* line 59, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .sh {
   color: #4e72c1;
 }
 
+/* line 60, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .sh-r {
   color: #d63344;
 }
 
+/* line 61, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .r3 {
   color: #cbd398;
 }
 
+/* line 62, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .r3-e {
   color: #b9e524;
 }
 
+/* line 64, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .leo {
   color: #c7c9cc;
 }
 
+/* line 65, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .tb-l {
   color: #c7c9cc;
 }
 
+/* line 66, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .tb {
   color: #a92a35;
 }
 
+/* line 67, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .tb3 {
   color: #f15075;
 }
 
+/* line 69, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .rr {
   color: #f3f549;
 }
 
+/* line 70, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .fb {
   color: #42c090;
 }
 
+/* line 71, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .fd3 {
   color: #6a85ac;
 }
 
+/* line 73, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .g-tdb {
   color: #76326e;
 }
 
+/* line 74, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .tdb {
   color: #747398;
 }
 
+/* line 75, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .bst {
   color: #043575;
 }
 
+/* line 76, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/test.scss */
 .orc {
   color: #00659a;
 }
+
+/*# sourceMappingURL=../stylesheets/test.map */

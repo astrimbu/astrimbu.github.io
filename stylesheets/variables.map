@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/variables.css",
+	"sources": [
+		"../sass/variables.scss"
+	],
+	"sourcesContent": [
+		"$contrail: 'Contrail One', cursive;\r\n$ubuntu: 'Ubuntu Mono', fixed-width;\r\n\r\n$lightred: #e88f80;\r\n$red: #ED3B1C;\r\n\r\n$title1: #0080ff;\r\n$shadow1: #0040aa;\r\n$topic1: #00ff80;\r\n\r\n$title2: #ff0080;\r\n$shadow2: #880050;\r\n$topic2: #0ff;\r\n\r\n$shadow3: #aa8d00;\r\n\r\n$verylight: #888;\r\n$light: #444;\r\n$dark: #333;\r\n$verydark: #222;\r\n\r\n$background: #2a2a2a;\r\n"
+	],
+	"mappings": "",
+	"names": []
+}
