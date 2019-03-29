@@ -1,4 +1,3 @@
-/* line 3, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 body, main, html {
   background: #2a2a2a;
   color: #fff;
@@ -8,12 +7,10 @@ body, main, html {
   padding: 0;
 }
 
-/* line 12, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .center {
   text-align: center;
 }
 
-/* line 16, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .middle-wrapper {
   left: 25%;
   width: 50%;
@@ -25,20 +22,17 @@ body, main, html {
   font-family: "Ubuntu Mono", fixed-width;
 }
 
-/* line 26, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .middle {
   position: relative;
   text-align: center;
   overflow-wrap: break-word;
 }
 
-/* line 32, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .title {
   width: 50%;
   margin: 0 auto;
 }
 
-/* line 37, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .inverse {
   background: #ddd;
   color: #000;
@@ -46,14 +40,12 @@ body, main, html {
   margin: 0 4px 0 4px;
 }
 
-/* line 43, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .inverse:hover {
   background: #666;
   color: #ff0;
   cursor: pointer;
 }
 
-/* line 49, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .dark-inverse {
   background: #333;
   color: #666;
@@ -61,69 +53,58 @@ body, main, html {
   margin: 0 4px 0 4px;
 }
 
-/* line 55, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .dark-inverse:hover {
   background: #222;
   color: #ff0;
   cursor: pointer;
 }
 
-/* line 61, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .line {
   font-size: 18px;
   line-height: 1.8em;
   margin: 0 0 0 0;
 }
 
-/* line 67, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .contrail {
   font-family: "Contrail One", cursive;
   font-weight: inherit;
 }
 
-/* line 72, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .nslink {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 77, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .minimal-list {
   list-style: none;
   padding: 0;
 }
-
-/* line 80, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .minimal-list li {
   margin: 0 0 15px 0;
 }
 
-/* line 85, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .updated {
   padding-top: 10px;
   font-size: 12px;
   font-family: "Ubuntu Mono", fixed-width;
 }
 
-/* line 91, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .top-left {
   position: fixed;
   top: 10px;
   left: 10px;
 }
 
-/* line 97, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .bottom-left {
   position: fixed;
   bottom: 10px;
   left: 10px;
 }
 
-/* line 103, C:/Users/astrimbu/Documents/GitHub/astrimbu.github.io/sass/styles.scss */
 .bottom-right {
   position: fixed;
   bottom: 10px;
   right: 10px;
 }
 
-/*# sourceMappingURL=../stylesheets/styles.map */
+/*# sourceMappingURL=styles.css.map */
