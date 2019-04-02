@@ -45,12 +45,26 @@ ul li {
   padding: 2px 0 2px 0;
 }
 
-.av {
+.av-mc-w {
+  color: #d5d7e3;
+}
+
+.av-mc-b {
+  color: #111;
+  text-shadow: none;
+  background-color: #ccc;
+}
+
+.av-r {
   color: #d5d7e3;
 }
 
 .av-x {
   color: #7c96c8;
+}
+
+.av-g {
+  color: #cb6f13;
 }
 
 .harp {
@@ -73,6 +87,10 @@ ul li {
   color: #b9e524;
 }
 
+.r3-dx {
+  color: #d5d7e3;
+}
+
 .leo {
   color: #c7c9cc;
 }
@@ -85,8 +103,8 @@ ul li {
   color: #a92a35;
 }
 
-.tb3 {
-  color: #f15075;
+.riv-pro {
+  color: #cdcc18;
 }
 
 .rr {
@@ -99,6 +117,10 @@ ul li {
 
 .fd3 {
   color: #6a85ac;
+}
+
+.tb3 {
+  color: #f15075;
 }
 
 .g-tdb {
