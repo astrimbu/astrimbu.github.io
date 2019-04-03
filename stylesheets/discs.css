@@ -3,12 +3,28 @@
   font-family: "Ubuntu Mono", fixed-width;
   font-size: 0.8em;
 }
+#discs p {
+  font-family: "Heebo", sans-serif;
+  font-size: 1em;
+  color: #aaa;
+}
+#discs .header {
+  border: 1px solid #333;
+  background-color: #333;
+}
+#discs .header h2 {
+  color: #ccc;
+}
+#discs .smalldark {
+  font-size: 0.8em;
+  color: #555;
+}
 #discs h2 {
   font-size: 1.8em;
   font-family: "Pompiere", cursive;
   text-decoration: underline;
   color: #444;
-  margin: 1em 0 0.2em 0;
+  margin: 1em 0 0.4em 0;
 }
 #discs a.info {
   position: relative;

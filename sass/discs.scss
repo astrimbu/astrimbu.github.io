@@ -5,12 +5,30 @@
   font-family: $ubuntu;
   font-size: 0.8em;
 
+  p {
+    font-family: $heebo;
+    font-size: 1em;
+    color: $verylighter;
+  }
+
+  .header {
+    border: 1px solid $dark;
+    background-color: $dark;
+
+    h2 { color: $vvlight; }
+  }
+
+  .smalldark {
+    font-size: 0.8em;
+    color: $lighter;
+  }
+
   h2 {
     font-size: 1.8em;
     font-family: 'Pompiere', cursive;
     text-decoration: underline;
     color: $light;
-    margin: 1em 0 0.2em 0;
+    margin: 1em 0 0.4em 0;
   }
 
   a.info {
