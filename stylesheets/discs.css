@@ -8,13 +8,6 @@
   font-size: 1em;
   color: #aaa;
 }
-#discs .header {
-  border: 1px solid #333;
-  background-color: #333;
-}
-#discs .header h2 {
-  color: #ccc;
-}
 #discs .smalldark {
   font-size: 0.8em;
   color: #555;
