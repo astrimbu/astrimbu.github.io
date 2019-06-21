@@ -1,0 +1,149 @@
+#inventory {
+  font-family: "Ubuntu Mono", fixed-width;
+  font-size: 1em;
+}
+#inventory h1 {
+  font-family: "Germania One", fixed-width;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+  margin: 0.5em 0 0 0;
+  text-shadow: 2px 2px black;
+}
+#inventory h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  text-decoration: underline;
+  font-family: "Contrail One", fixed-width;
+  color: #ddd;
+  margin: 1em 0 0.2em 0;
+}
+#inventory .middle {
+  line-height: 1.4em;
+}
+#inventory a.info {
+  position: relative;
+  z-index: 24;
+  text-decoration: none;
+}
+#inventory a.info span {
+  display: none;
+}
+#inventory a.info:hover {
+  z-index: 25;
+}
+#inventory a.info:hover span {
+  /* flight numbers are revealed on hover */
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: -0.2em;
+  transform: translate(-50%);
+  width: 105%;
+  height: 1.4em;
+  background-color: #2a2a2a;
+  font-weight: bold;
+  text-shadow: 1px  1px 0 #000,
+              -1px -1px 0 #000,
+               1px -1px 0 #000,
+              -1px  1px 0 #000,
+               1px  1px 0 #000;
+}
+
+hr {
+  border-top: 5px dashed #222;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+ul {
+  text-shadow: 1px 1px 0 #000;
+  list-style: none;
+  padding: 0;
+  margin: 0em 0 1em 0;
+}
+ul li {
+  padding: 2px 0 2px 0;
+}
+
+.black {
+  color: #111;
+  font-weight: bold;
+  text-shadow: 1px  1px 0 #444,
+              -1px -1px 0 #444,
+               1px -1px 0 #444,
+              -1px  1px 0 #444,
+               1px  1px 0 #444 !important;
+}
+.black span {
+  text-shadow: 1px  1px 0 #444,
+              -1px -1px 0 #444,
+               1px -1px 0 #444,
+              -1px  1px 0 #444,
+               1px  1px 0 #444 !important;
+}
+.white    { color: #d5d7e3; }
+
+/* putters */
+.av-mc-w  { color: #d5d7e3; }
+.av-mc-b  { } /* use black class */
+.p2-w     { color: #d5d7e3; }
+.p2-x     { color: #e91e63; }
+.av-r     { color: #d5d7e3; }
+.av-c     { color: #d5d7e3; }
+.av-x-jc  { color: #7c96c8; }
+.av-x-b   { } /* use black class */
+.wizard   { } /* use black class */
+.g-av     { color: #cb6f13; }
+.harp     { color: #b2b968; }
+.harp-b   { color: #b2b968; } /* update */
+.harp-vip { color: #b2b968; } /* update */
+
+/* midranges */
+.sh       { color: #4e72c1; }
+.sh-r     { color: #d63344; }
+.roc-p    { color: #0073c7; }
+.spider   { color: #d5d7e3; }
+.buzzz-zg { color: #cbd398; } /* update */
+.buzzz-ti { color: #98af41; }
+.buzzz-es { color: #1685bf; }
+.mako3    { color: #f15075; } /* update */
+.verdict  { color: #d5d7e3; } /* update */
+.r3       { color: #cbd398; }
+.r3-e     { color: #b9e524; }
+.r3-dx    { color: #d5d7e3; }
+
+/* fairways */
+.leo-dx   { color: #c7c9cc; }
+.riv-pro  { color: #cdcc18; }
+.leo-c    { color: #ff8a15; }
+.tb       { color: #a92a35; }
+.tb-b     { color: #4574ff; }
+.tb-g     { color: #40a482; }
+.tb3      { color: #f15075; }
+.leo3-s   { color: #d5d7e3; }
+.leo3-s-p { color: #76326e; } /* update */
+.leo3-c   { color: #18b151; }
+
+/* utility */
+.sonic    { color: #d5d7e3; }
+.leo-dx   { color: #d5d7e3; }
+.tb-dx    { color: #d5d7e3; }
+.rr       { color: #f3f549; }
+.rr-b     { color: #326fc5; }
+.fb-ns    { color: #42c090; }
+.fb-s     { color: #f3f549; }
+.fd3      { color: #6a85ac; }
+
+/* distance */
+.g-tdb    { color: #76326e; }
+.g-tdb-r  { color: #b72431; }
+.tdb-s-b  { } /* use black class */
+.tdb      { color: #747398; }
+.bst      { color: #043575; }
+.orc      { color: #00659a; }
+.orc-y    { color: #c6de0e; }
+.des-w    { color: #d5d7e3; }
+.des-b    { } /* use black class */
+.g-des    { color: #cb6f13; }

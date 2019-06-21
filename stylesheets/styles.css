@@ -6,32 +6,37 @@ body, main, html {
   margin: 0;
   padding: 0;
 }
-
-.center {
-  text-align: center;
-}
+body { overflow-y: scroll; }
 
 .middle-wrapper {
   left: 25%;
   width: 50%;
   top: 10%;
+  padding-bottom: 1em;
   margin-bottom: 70px;
   position: absolute;
   text-align: center;
-  border: 5px dashed #333;
   font-family: "Ubuntu Mono", fixed-width;
+}
+
+.middle-wrapper h2 {
+  color: #fff;
+  margin-bottom: 1em;
 }
 
 .middle {
   position: relative;
   text-align: center;
   overflow-wrap: break-word;
-  margin-bottom: 1em;
+  border: 5px dashed #333;
 }
 
-.title {
-  width: 50%;
-  margin: 0 auto;
+.homepage h3 {
+  font-family: "Ubuntu Mono", fixed-width;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  margin: 1em 0 0.5em 0;
 }
 
 .inverse {
@@ -49,7 +54,7 @@ body, main, html {
 
 .dark-inverse {
   background: #333;
-  color: #666;
+  color: #888;
   padding: 0 5px 0 3px;
   margin: 0 4px 0 4px;
 }
@@ -81,7 +86,7 @@ body, main, html {
   padding: 0;
 }
 .minimal-list li {
-  margin: 0 0 15px 0;
+  margin: 0 0 1em 0;
 }
 
 .updated {
@@ -101,11 +106,19 @@ body, main, html {
   bottom: 10px;
   left: 10px;
 }
+@media screen and (max-width: 500px) {
+  .bottom-left {
+    display: none;
+  }
+}
 
 .bottom-right {
   position: fixed;
   bottom: 10px;
   right: 10px;
 }
-
-/*# sourceMappingURL=styles.css.map */
+@media screen and (max-width: 500px) {
+  .bottom-right {
+    display: none;
+  }
+}
