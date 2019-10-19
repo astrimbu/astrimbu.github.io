@@ -18,6 +18,12 @@ html, body {
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 900px) {
+  html { font-size: 0.8em; }
+}
+@media screen and (max-width: 700px) {
+  html { font-size: 0.7em; }
+}
 
 body {
   display: flex;
@@ -163,9 +169,7 @@ footer {
   left: 10px;
 }
 @media screen and (max-width: 500px) {
-  .bottom-left {
-    display: none;
-  }
+  .bottom-left { display: none; }
 }
 
 .bottom-right {
@@ -174,7 +178,5 @@ footer {
   right: 10px;
 }
 @media screen and (max-width: 500px) {
-  .bottom-right {
-    display: none;
-  }
+  .bottom-right { display: none; }
 }
