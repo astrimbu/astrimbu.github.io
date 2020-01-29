@@ -49,12 +49,6 @@ header {
   justify-content: center;
 }
 
-img {
-  max-width: 40%;
-  height: auto;
-  padding-bottom: 10px;
-}
-
 .title {
   font-family: 'Scope One', serif;
   font-size: 3em;
@@ -89,13 +83,6 @@ main p {
 }
 main p em {
   color: #000;
-}
-
-.squiggly {
-  font-family: 'Space Mono', monospace;
-  font-weight: 600;
-  color: #ffe066;
-  text-shadow: 1px 1px #000;
 }
 
 code {
