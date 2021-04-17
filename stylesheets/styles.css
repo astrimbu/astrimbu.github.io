@@ -11,8 +11,8 @@
 .libre-baskerville { font-family: 'Libre Baskerville', serif; }
 
 html, body {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -34,10 +34,7 @@ body {
 
 main {
   flex-grow: 1;
-}
-main {
-  font-family: serif;
-  color: #fff;
+  font-family: 'Libre Baskerville', serif;
   width: 100%;
   padding: 5em 0 5em 0;
 }
@@ -45,33 +42,7 @@ main p {
   margin-block-start: 1.2em;
   margin-block-end: 1.2em;
 }
-main p em {
-  color: #000;
-}
-main .title {
-  font-family: 'Scope One', serif;
-  font-size: 2em;
-  font-weight: 600;
-  line-height: 0.8em;
-  text-shadow: 2px 2px #000;
-  margin: 0;
-}
-
-
-header, main, footer {
-  flex-shrink: 0;
-}
-
-header {
-  height: 90%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-header .title {
+.title {
   font-family: 'Scope One', serif;
   font-size: 3em;
   line-height: 0.8em;
@@ -79,25 +50,24 @@ header .title {
   margin: 0;
 }
 
-main {
-  font-family: serif;
-  color: #fff;
+header, main, footer {
+  flex-shrink: 0;
+}
+
+header {
+  height: 10%;
   width: 100%;
-  padding: 5em 0 5em 0;
-}
-main p {
-  margin-block-start: 1.2em;
-  margin-block-end: 1.2em;
-}
-main p em {
-  color: #000;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
   font-family: 'Space Mono', monospace;
   font-weight: 600;
   text-shadow: 2px 2px #000;
-  color: #ffe066;
 }
 
 footer {
@@ -114,7 +84,6 @@ footer {
 }
 
 .no-style-link {
-  color: #fff;
   text-decoration: none;
 }
 
