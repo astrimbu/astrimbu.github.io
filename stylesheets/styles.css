@@ -11,8 +11,8 @@
 .libre-baskerville { font-family: 'Libre Baskerville', serif; }
 
 html, body {
-  background: #247ba0;
-  color: #fff;
+  background: white;
+  color: black;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -35,6 +35,28 @@ body {
 main {
   flex-grow: 1;
 }
+main {
+  font-family: serif;
+  color: #fff;
+  width: 100%;
+  padding: 5em 0 5em 0;
+}
+main p {
+  margin-block-start: 1.2em;
+  margin-block-end: 1.2em;
+}
+main p em {
+  color: #000;
+}
+main .title {
+  font-family: 'Scope One', serif;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 0.8em;
+  text-shadow: 2px 2px #000;
+  margin: 0;
+}
+
 
 header, main, footer {
   flex-shrink: 0;
@@ -49,7 +71,7 @@ header {
   justify-content: center;
 }
 
-.title {
+header .title {
   font-family: 'Scope One', serif;
   font-size: 3em;
   line-height: 0.8em;
@@ -57,22 +79,8 @@ header {
   margin: 0;
 }
 
-.subtitle {
-  font-family: 'Space Mono', monospace;
-  line-height: 1.5em;
-  font-weight: 600;
-  color: #000;
-}
-
-.slash {
-  color: #f25f5c;
-  font-weight: 400;
-  text-shadow: 4px 4px #70c1b3;
-}
-
 main {
-  background: #f25f5c;
-  font-family: 'Libre Baskerville', serif;
+  font-family: serif;
   color: #fff;
   width: 100%;
   padding: 5em 0 5em 0;
@@ -100,70 +108,22 @@ footer {
   width: 100%;
   background: #50514f;
   font-family: 'Space Mono', monospace;
+  font-size: 12px;
   color: #fff;
   text-shadow: 2px 2px #000;
 }
 
-.inverse {
-  background: #ddd;
-  color: #000;
-  padding: 0 5px 0 3px;
-  margin: 0 4px 0 4px;
-}
-.inverse:hover {
-  background: #666;
-  color: #ffe066;
-  cursor: pointer;
-}
-
-.dark-inverse {
-  background: #333;
-  color: #888;
-  padding: 0 5px 0 3px;
-  margin: 0 4px 0 4px;
-}
-.dark-inverse:hover {
-  background: #222;
-  color: #ffe066;
-  cursor: pointer;
-}
-
-.line {
-  font-size: 18px;
-  line-height: 1.8em;
-  margin: 0 0 0 0;
-}
-
-.nslink {
+.no-style-link {
   color: #fff;
   text-decoration: none;
 }
 
-.updated {
-  padding-top: 10px;
-  font-size: 12px;
-}
-
-.top-left {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-}
-
-.bottom-left {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-}
+/* .bottom-left {}
 @media screen and (max-width: 500px) {
   .bottom-left { display: none; }
 }
 
-.bottom-right {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
+.bottom-right {}
 @media screen and (max-width: 500px) {
   .bottom-right { display: none; }
-}
+} */
