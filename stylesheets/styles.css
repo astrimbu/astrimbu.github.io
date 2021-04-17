@@ -81,6 +81,11 @@ body { overflow-y: scroll; }
   text-decoration: none;
 }
 
+.github {
+  height: 16px;
+  margin-bottom: -2px;
+}
+
 .minimal-list {
   list-style: none;
   padding: 0;
