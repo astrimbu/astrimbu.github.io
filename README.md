@@ -1,4 +1,4 @@
-# astrimbu.github.io
+# [alan.computer](http://alan.computer)
 ## Personal website
 
 When I was young 👶 I quite enjoyed tinkering with HTML.
