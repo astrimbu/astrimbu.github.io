@@ -1,17 +1,32 @@
 body, main, html {
-  background: #2a2a2a;
-  color: #fff;
   height: 95%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
 body { overflow-y: scroll; }
+
+header { 
+  font-family: "Karla", sans-serif;
+  font-size: 1em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.site-title {
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.site-subtitle {
+  font-size: 0.9em;
+  font-style: italic;
+}
 
 .middle-wrapper {
   left: 25%;
   width: 50%;
-  top: 10%;
   padding-bottom: 1em;
   margin-bottom: 70px;
   position: absolute;
@@ -20,7 +35,6 @@ body { overflow-y: scroll; }
 }
 
 .middle-wrapper h2 {
-  color: #fff;
   margin-bottom: 1em;
 }
 
@@ -28,7 +42,8 @@ body { overflow-y: scroll; }
   position: relative;
   text-align: center;
   overflow-wrap: break-word;
-  border: 5px dashed #333;
+  border: 5px solid #666;
+  border-radius: 5em;
 }
 
 .homepage h3 {
@@ -39,32 +54,16 @@ body { overflow-y: scroll; }
   margin: 1em 0 0.5em 0;
 }
 
-.inverse {
-  background: #ddd;
+.main-link {
   color: #000;
   padding: 0 5px 0 3px;
   margin: 0 4px 0 4px;
 }
-
-.inverse:hover {
+.main-link:hover {
   background: #666;
   color: #ff0;
   cursor: pointer;
 }
-
-.dark-inverse {
-  background: #333;
-  color: #888;
-  padding: 0 5px 0 3px;
-  margin: 0 4px 0 4px;
-}
-
-.dark-inverse:hover {
-  background: #222;
-  color: #ff0;
-  cursor: pointer;
-}
-
 .line {
   font-size: 18px;
   line-height: 1.8em;
@@ -72,13 +71,13 @@ body { overflow-y: scroll; }
 }
 
 .contrail {
-  font-family: "Contrail One", cursive;
+  font-family: "Contrail One", sans-serif;
   font-weight: inherit;
 }
 
 .nslink {
-  color: #fff;
   text-decoration: none;
+  color: #000;
 }
 
 .github {

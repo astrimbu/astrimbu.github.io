@@ -9,17 +9,14 @@ html, body, main {
 #discs h1 {
   font-family: "Germania One", fixed-width;
   font-size: 2em;
-  color: #fff;
   font-weight: bold;
   margin: 0.5em 0 0 0;
-  text-shadow: 2px 2px black;
 }
 
 #discs h2 {
   font-size: 1.2em;
   font-weight: normal;
   font-family: "Contrail One", fixed-width;
-  color: #ddd;
   margin: 0.3em 0 0.2em 0;
 }
 
@@ -43,8 +40,12 @@ html, body, main {
 .middle-wrapper { border: none; }
 /* .item div { border: 1px solid #888; } */
 .item {
-  border: 5px dashed #333;
-  margin: 1em;
+  border: 5px solid #666;
+  border-radius: 5em;
+  margin: 0.5em;
+}
+.item:hover {
+  background: #ccc;
 }
 .item div {
   margin: 0.2em 1em 0.5em 1em;
@@ -54,7 +55,6 @@ html, body, main {
   background-repeat: no-repeat;
   background-position: center;
 }
-.item div:hover { opacity: 0.8;}
 @media screen and (max-width: 350px) {
   .item div {
     height: 8em;
@@ -62,8 +62,14 @@ html, body, main {
 }
 
 .putter-div { background-image: url("../img/putter.png"); }
+.putter-div:hover { background-image: url("../img/putter2.png"); }
 .throwing-div { background-image: url("../img/throwing.png"); }
+.throwing-div:hover { background-image: url("../img/throwing2.png"); }
 .midrange-div { background-image: url("../img/midrange.png"); }
+.midrange-div:hover { background-image: url("../img/midrange2.png"); }
 .fairway-div { background-image: url("../img/fairway.png"); }
+.fairway-div:hover { background-image: url("../img/fairway2.png"); }
 .utility-div { background-image: url("../img/utility.png"); }
+.utility-div:hover { background-image: url("../img/utility2.png"); }
 .distance-div { background-image: url("../img/distance.png"); }
+.distance-div:hover { background-image: url("../img/distance2.png"); }
