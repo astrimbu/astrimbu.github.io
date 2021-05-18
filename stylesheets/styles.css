@@ -59,14 +59,17 @@ header {
 }
 
 .item {
-  border: 4px solid #666;
   border-radius: 1em;
   margin: 0.5em;
 }
 
 .homepage { margin-bottom: 10%; }
 
-.homepage .item       { height: 10em; }
+.homepage .item {
+  height: 10em;
+  border: 4px solid #666;
+}
+
 .homepage .item span  { line-height: 10em; }
 .homepage .item:hover { opacity: 90%; }
 
