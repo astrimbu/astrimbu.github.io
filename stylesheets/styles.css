@@ -64,10 +64,6 @@ header {
   margin: 0.5em;
 }
 
-/*.item:hover {
-  background: #ccc;
-}*/
-
 .homepage { margin-bottom: 10%; }
 
 .homepage .item       { height: 10em; }
@@ -100,9 +96,7 @@ header {
 }
 
 .homepage-link:hover {
-  background: #fff;
-  color: #000;
-  mix-blend-mode: screen;
+  color: #ff0;
 }
 
 .line {
