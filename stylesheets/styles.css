@@ -10,7 +10,7 @@ body { overflow-y: scroll; }
 header { 
   font-family: "Karla", sans-serif;
   font-size: 1em;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 10%;
 }
 
@@ -66,17 +66,27 @@ header {
 .homepage { margin-bottom: 10%; }
 
 .homepage .item {
-  height: 10em;
+  height: 15em;
   border: 4px solid #666;
 }
-
-.homepage .item span  { line-height: 10em; }
+.homepage .item span  { line-height: 15em; }
 .homepage .item:hover { opacity: 90%; }
+
+.highlight-text { padding: 10px 0 10px 0; }
+
+.grid-item-aboutme {
+  font-family: "Karla", sans-serif;
+  margin: 0.5em;
+  border: 0;
+}
+
+.grid-item-aboutme p { margin: 0; }
 
 .grid-item-github      { background-image: url("../img/stock-code.jpg"); }
 .grid-item-dg          { background-image: url("../img/stock-dg.jpg"); }
 .grid-item-piano       { background-image: url("../img/stock-piano.jpg"); }
 .grid-item-calligraphy { background-image: url("../img/stock-calligraphy.jpg"); }
+.grid-item-photography { background: #000; }
 
 .main-link {
   color: #000;
