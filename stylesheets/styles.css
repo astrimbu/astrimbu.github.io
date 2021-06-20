@@ -72,6 +72,13 @@ header {
 .homepage .item span  { line-height: 15em; }
 .homepage .item:hover { opacity: 90%; }
 
+@media screen and (max-width: 850px) {
+  .homepage .item {
+    height: 5em;
+  }
+  .homepage .item span { line-height: 5em; }
+}
+
 .highlight-text { padding: 10px 0 10px 0; }
 
 .grid-item-aboutme {
