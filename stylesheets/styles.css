@@ -1,15 +1,15 @@
-body, main, html {
+body, html {
   height: 95%;
   width: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
 }
 
-body { overflow-y: scroll; }
-
-.middle-wrapper {
-  left: 25%;
-  width: 50%;
+main {
+  left: 20%;
+  width: 60%;
   padding-bottom: 1em;
   margin-bottom: 70px;
   position: absolute;
@@ -17,34 +17,73 @@ body { overflow-y: scroll; }
 }
 
 header { 
-  font-family: "Karla", sans-serif;
-  font-size: 1.2em;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  height: 42px;
+  line-height: 2em;
+  background-color: #8ca0ff;
 }
 
-.site-title {
+article {
+  margin: 40px;
+}
+
+.home > h1 {
   font-weight: 700;
-  padding-bottom: 1em;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  padding: 10px;
 }
 
-.site-subtitle {
-  font-size: 0.9em;
-  font-style: italic;
+nav {
+  margin-right: 20px;
+  height: inherit;
+}
+nav > ul > li {
+  display: inline;
+  float: right;
+  padding: 5px;
+}
+li.home {
+  float: left;
 }
 
-.tree {
+.hamburger > a {
+  text-decoration: none;
+  display: none;
+  font-weight: 900;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+.menu > a:hover {
+  text-decoration: underline;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  margin: 0 auto;
+  padding: 0;
+}
+.skills-grid > li {
+  background-color: #8ca0ff;
   width: fit-content;
+  height: 1em;
   margin: 0 auto;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-  padding-inline-start: 50px;
-  list-style-position: outside;
-}
-
-li {
-  padding-top: 5px;
-}
+/* Extra small devices (550px and down) */
+@media only screen and (max-width: 550px) {
+  .menu { display: none; }
+  .hamburger > a { display: block; }
+  li.home { float: left; }
+} 
