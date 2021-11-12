@@ -77,6 +77,8 @@ li.home { float: left; }
   text-decoration: none;
   display: none;
   font-weight: 900;
+  float: right;
+  padding-right: 1em;
 }
 
 ul, ol {
@@ -126,8 +128,8 @@ h1, h2 {
 }
 @media only screen and (max-width: 700px) {
   .alan { font-size: 3em; }
-  .menu { display: none; }
-  .hamburger > a { display: block; }
+  li.menu { display: none; }
+  .hamburger > a { display: inline; }
 }
 
 /* Suspiciously small screens */
