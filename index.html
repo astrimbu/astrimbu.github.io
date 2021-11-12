@@ -19,8 +19,8 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li class="home"><h1><a href="#">alan . computer</a></h1>
+      <ul class="nav">
+        <li class="home"><a href="#"><h1 class="logo">alan . computer</h1></a>
         <li class="menu"><a href="#">Contact</a>
         <li class="menu"><a href="#">Projects</a>
         <li class="menu"><a href="#">Skills</a>
@@ -31,45 +31,47 @@
   </header>
 
   <main>
-    <article class="about hero">
+    <!-- Hero -->
+    <article class="about-hero">
       <h1 class="alan">I'm Alan.</h1>
       <section>
         <h1>I design & build full-stack web apps.</h1>
         <p>I'm passionate about creating interactive, robust websites with clean, responsive, and accessible user interfaces.</p>
       </section>
-      
     </article>
+    <!-- Centered articles -->
+    <div class="middle-wrapper">
+      <article class="skills">
+        <h1>Skills</h1>
+        <section>
+          <h1>Front-end</h1>
+          <ol class="skills-grid">
+            <li>React</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ol>
+        </section>
+        <section>
+          <h1>Back-end</h1>
+          <ol class="skills-grid">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Next.js</li>
+            <li>Gatsby</li>
+            <li>GraphQL</li>
+            <li>REST API</li>
+          </ol>
+        </section>
+      </article>
 
-    <article class="skills">
-      <h1>Skills</h1>
-      <section>
-        <h1>Front-end</h1>
-        <ol class="skills-grid">
-          <li>React</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-        </ol>
-      </section>
-      <section>
-        <h1>Back-end</h1>
-        <ol class="skills-grid">
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>Next.js</li>
-          <li>Gatsby</li>
-          <li>GraphQL</li>
-          <li>REST API</li>
-        </ol>
-      </section>
-    </article>
+      <article class="projects">
+        <h1>Projects</h1>
+      </article>
 
-    <article class="projects">
-      <h1>Projects</h1>
-    </article>
-
-    <article class="contact">
-      <h1>Contact</h1>
-    </article>
+      <article class="contact">
+        <h1>Contact</h1>
+      </article>
+    </div>
   </main>
   
   <footer>
