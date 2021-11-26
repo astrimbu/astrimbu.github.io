@@ -42,6 +42,11 @@ article.about-hero {
 }
 .about-hero > h1 {
   font-family: "youngserifregular";
+  text-align: center;
+}
+
+.subtitle h1 {
+  text-align: center;
 }
 
 article {
@@ -73,12 +78,13 @@ nav {
 li.menu { float: right; }
 li.home { float: left; }
 
-.hamburger > a {
+.hamburger {
   text-decoration: none;
   display: none;
   font-weight: 900;
   float: right;
-  padding-right: 1em;
+  margin: 0.5em 0 0 0;
+  line-height: 3em;
 }
 
 ul, ol {
@@ -129,7 +135,7 @@ h1, h2 {
 @media only screen and (max-width: 700px) {
   .alan { font-size: 3em; }
   li.menu { display: none; }
-  .hamburger > a { display: inline; }
+  .hamburger { display: inline; }
 }
 
 /* Suspiciously small screens */

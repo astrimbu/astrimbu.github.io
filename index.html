@@ -18,27 +18,28 @@
   
 <body>
   <header>
-    <nav>
+    <nav role="navigation">
+      <button aria-expanded="false" aria-controls="menu" class="hamburger">☰</button>
       <ul class="nav">
         <li class="home"><a href="#"><h1 class="logo">alan . computer</h1></a>
         <li class="menu"><a href="#">Contact</a>
         <li class="menu"><a href="#">Projects</a>
         <li class="menu"><a href="#">Skills</a>
         <li class="menu"><a href="#">About</a>
-        <li class="hamburger"><a href="#">🍔</a>
       </ul>
+
     </nav>
   </header>
 
   <main>
     <!-- Hero -->
     <article class="about-hero">
-      <h1 class="alan">I'm Alan.</h1>
-      <section>
-        <h1>I design & build full-stack web apps.</h1>
-        <p>I'm passionate about creating interactive, robust websites with clean, responsive, and accessible user interfaces.</p>
+      <h1 class="alan">Hi, I'm Alan</h1>
+      <section class="subtitle">
+        <h1>I'm a full-stack web developer.</h1>
       </section>
     </article>
+
     <!-- Centered articles -->
     <div class="middle-wrapper">
       <article class="skills">
@@ -56,9 +57,6 @@
           <ol class="skills-grid">
             <li>Node.js</li>
             <li>Express</li>
-            <li>Next.js</li>
-            <li>Gatsby</li>
-            <li>GraphQL</li>
             <li>REST API</li>
           </ol>
         </section>
@@ -66,6 +64,11 @@
 
       <article class="projects">
         <h1>Projects</h1>
+        <ol class="skills-grid">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ol>
       </article>
 
       <article class="contact">
