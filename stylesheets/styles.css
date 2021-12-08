@@ -45,7 +45,9 @@ article.about-hero {
   text-align: center;
 }
 
-.subtitle h1 {
+.subtitle {
+  width: 80%;
+  margin: auto;
   text-align: center;
 }
 
