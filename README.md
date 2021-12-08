@@ -1,2 +1,5 @@
 # [alan.computer](http://alan.computer)
-## Personal website
+
+50% portfolio
+
+50% html/css sandbox
