@@ -123,13 +123,10 @@ h1, h2 {
 }
 
 @media only screen and (max-width: 2200px) {
-  .alan { font-size: 10em; }
-}
-@media only screen and (max-width: 1800px) {
-  .alan { font-size: 8em; }
-} 
-@media only screen and (max-width: 1400px) {
   .alan { font-size: 6em; }
+}
+@media only screen and (max-width: 1400px) {
+  .alan { font-size: 5em; }
 }
 @media only screen and (max-width: 1000px) {
   .alan { font-size: 4em; }
