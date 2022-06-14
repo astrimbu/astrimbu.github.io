@@ -33,7 +33,7 @@ main {
 }
 
 header {
-  background: #eee;
+  background: #000;
   height: 3em;
   line-height: 3em;
 }
@@ -79,21 +79,6 @@ article {
   padding: 10px;
 }
 
-nav {
-  margin-right: 20px;
-  height: inherit;
-}
-.nav > li {
-  display: inline;
-  padding: 5px;
-}
-li.menu {
-  float: right;
-}
-li.home {
-  float: left;
-}
-
 .hamburger {
   text-decoration: none;
   display: none;
@@ -115,13 +100,29 @@ h2 {
   margin-top: 0;
 }
 
-.nav > li > a,
-.nav > li > a:visited {
-  color: #000;
+nav {
+  margin-right: 20px;
+  height: inherit;
+}
+nav li {
+  display: inline;
+  padding: 5px;
+}
+nav a,
+nav a:visited {
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
-.menu > a:hover {
+
+.menu {
+  float: right;
+}
+.home {
+  float: left;
+}
+
+.menu a:hover {
   text-decoration: underline;
 }
 
