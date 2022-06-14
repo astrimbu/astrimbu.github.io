@@ -1,12 +1,15 @@
 @font-face {
-  font-family: 'youngserifregular';
-  src: url('../youngserif-regular-webfont.woff2') format('woff2'),
-       url('../youngserif-regular-webfont.woff') format('woff');
+  font-family: "youngserifregular";
+  src: url("../youngserif-regular-webfont.woff2") format("woff2"),
+    url("../youngserif-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-body, html {
+body,
+html {
+  background: #000;
+  color: #fff;
   height: 95%;
   width: 100%;
   margin: 0;
@@ -29,35 +32,42 @@ main {
   text-align: center;
 }
 
-header { 
+header {
+  background: #eee;
   height: 3em;
   line-height: 3em;
-  background-color: #000;
-  color: #fff;
 }
 
-article.about-hero {
+.about-hero {
   margin: 0;
-  background-color: #fff;
+  background: #222;
 }
-.about-hero > h1 {
+.alan {
+  font-weight: normal;
+  margin-bottom: 0.5em;
   font-family: "youngserifregular";
   text-align: center;
+  background: #111;
 }
-
 .subtitle {
   width: 80%;
   margin: auto;
   text-align: center;
 }
+.subtitle > h1 {
+  font-weight: normal;
+  background: #444;
+}
+.subtitle > p {
+  background: linear-gradient(45deg, #054696, #e4002b);
+}
 
 article {
   margin: 40px;
-  background-color: #8c8c8c33;
   padding: 2em;
 }
 
-section {
+.skills > section {
   padding: 1em 0;
 }
 
@@ -77,8 +87,12 @@ nav {
   display: inline;
   padding: 5px;
 }
-li.menu { float: right; }
-li.home { float: left; }
+li.menu {
+  float: right;
+}
+li.home {
+  float: left;
+}
 
 .hamburger {
   text-decoration: none;
@@ -89,18 +103,21 @@ li.home { float: left; }
   line-height: 3em;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-top: 0;
 }
 
-.nav > li > a, .nav > li > a:visited {
-  color: #fff;
+.nav > li > a,
+.nav > li > a:visited {
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -108,38 +125,68 @@ h1, h2 {
   text-decoration: underline;
 }
 
-.skills-grid {
+.skills {
+  background: #555;
+}
+.skill {
+  background: #333;
+  margin-bottom: 2px;
+}
+
+.skill-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 10px;
   margin: 0 auto;
   padding: 0;
+  width: 70%;
 }
-.skills-grid > li {
-  background-color: #8c8c8c99;
+.skill-grid > li {
   width: fit-content;
   height: 1em;
   margin: 0 auto;
+  background: #ddd;
+  color: #000;
+  padding: 4px;
+  box-shadow: 5px 10px;
+}
+
+.contact {
+  background: #555;
 }
 
 @media only screen and (max-width: 2200px) {
-  .alan { font-size: 6em; }
+  .alan {
+    font-size: 6em;
+  }
 }
 @media only screen and (max-width: 1400px) {
-  .alan { font-size: 5em; }
+  .alan {
+    font-size: 5em;
+  }
 }
 @media only screen and (max-width: 1000px) {
-  .alan { font-size: 4em; }
+  .alan {
+    font-size: 4em;
+  }
 }
 @media only screen and (max-width: 700px) {
-  .alan { font-size: 3em; }
-  li.menu { display: none; }
-  .hamburger { display: inline; }
+  .alan {
+    font-size: 3em;
+  }
+  li.menu {
+    display: none;
+  }
+  .hamburger {
+    display: inline;
+  }
 }
 
 /* Suspiciously small screens */
 @media only screen and (max-width: 300px) {
-  main { display: none; }
+  main {
+    display: none;
+  }
   .egg {
     display: block;
     position: absolute;
@@ -152,15 +199,26 @@ h1, h2 {
   }
 }
 @media only screen and (max-width: 265px) {
-  footer, .hamburger { display: none; }
+  footer,
+  .hamburger {
+    display: none;
+  }
 }
 @media only screen and (max-width: 230px) {
-  .home { display: none; }
-  .egg:after { content: "🙂"; }
+  .home {
+    display: none;
+  }
+  .egg:after {
+    content: "🙂";
+  }
 }
 @media only screen and (max-width: 170px) {
-  .egg:after { content: "😀"; }
+  .egg:after {
+    content: "😀";
+  }
 }
 @media only screen and (max-width: 80px) {
-  .egg:after { content: "👋"; }
+  .egg:after {
+    content: "👋";
+  }
 }
