@@ -43,6 +43,9 @@ header {
   background: #222;
 }
 .alan {
+  width: fit-content;
+  margin: auto;
+  padding: 0 0.2em;
   font-weight: normal;
   margin-bottom: 0.5em;
   font-family: "youngserifregular";
@@ -50,16 +53,20 @@ header {
   background: #111;
 }
 .subtitle {
-  width: 80%;
+  width: fit-content;
   margin: auto;
   text-align: center;
 }
-.subtitle > h1 {
+.subtitle h1,
+.subtitle p {
+  padding: 10px;
+}
+.subtitle h1 {
   font-weight: normal;
   background: #444;
 }
-.subtitle > p {
-  background: linear-gradient(45deg, #054696, #e4002b);
+.subtitle p {
+  background: linear-gradient(45deg, #05469685, #e4002b85);
 }
 
 article {
