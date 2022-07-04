@@ -163,7 +163,8 @@ nav a:visited {
 }
 .skill-grid > li:hover {
   cursor: pointer;
-  box-shadow: 4px 8px #555;
+  background: #fff;
+  text-decoration: underline;
 }
 .skill-grid a,
 .skill-grid a:hover {
@@ -178,6 +179,24 @@ nav a:visited {
 
 .contact {
   background: #555;
+}
+.contact > p {
+  width: fit-content;
+  height: 1em;
+  margin: 0 auto;
+  background: #ddd;
+  color: #000;
+  padding: 10px;
+  box-shadow: 4px 8px;
+}
+.contact > p:hover {
+  cursor: pointer;
+  background: #fff;
+  text-decoration: underline;
+}
+.contact a,
+.contact a:hover {
+  color: black;
 }
 
 @media only screen and (max-width: 2200px) {
