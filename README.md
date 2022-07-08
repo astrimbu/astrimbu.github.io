@@ -1,5 +1,5 @@
 # [alan.computer](http://alan.computer)
 
-50% portfolio
+My portfolio and HTML/CSS sandbox.
 
-50% html/css sandbox
+https://alan.computer
