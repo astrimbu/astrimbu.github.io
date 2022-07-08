@@ -1,4 +1,4 @@
-# [alan.computer](http://alan.computer)
+# [alan.computer](https://alan.computer)
 
 My portfolio and HTML/CSS sandbox.
 
