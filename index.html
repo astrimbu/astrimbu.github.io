@@ -1,176 +1,184 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>alan.computer</title>
+  <title>alan.computer</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Karla:400,700"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="stylesheets/styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Karla:400,700"
+    rel="stylesheet"
+  />
 
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <header>
+    <nav role="navigation">
+      <!-- <button aria-expanded="false" aria-controls="menu" class="hamburger">
+        ☰
+      </button> -->
+      <ul>
+        <li class="home">
+          <a href="#top"><h1 class="logo">alan . computer</h1></a>
+        </li>
+        <li class="menu"><a href="#contact">Contact</a></li>
+        <li class="menu"><a href="#skills">Skills</a></li>
+        <li class="menu"><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <body>
-      <header>
-        <nav role="navigation">
-          <button aria-expanded="false" aria-controls="menu" class="hamburger">
-            ☰
-          </button>
-          <ul>
-            <li class="home">
-              <a href="#top"><h1 class="logo">alan . computer</h1></a>
-            </li>
-            <li class="menu"><a href="#contact">Contact</a></li>
-            <li class="menu"><a href="#skills">Skills</a></li>
-            <li class="menu"><a href="#projects">Projects</a></li>
-          </ul>
-        </nav>
-      </header>
+  <main>
+    <!-- Hero -->
+    <article class="about-hero">
+      <h1 class="alan">Alan Strimbu</h1>
+      <section class="subtitle">
+        <h1>Computer Scientist</h1>
+        <p>
+          Software development<br />
+          Web development
+        </p>
+      </section>
+    </article>
 
-      <main>
-        <!-- Hero -->
-        <article class="about-hero">
-          <h1 class="alan">Hi, I'm Alan</h1>
-          <section class="subtitle">
-            <h1>I'm a software developer</h1>
-            <p>
-              Bachelor of Science in Computer Science<br />
-              DePaul University, Chicago, IL
-            </p>
-          </section>
-        </article>
+    <!-- Centered articles -->
+    <div class="middle-wrapper">
 
-        <!-- Centered articles -->
-        <div class="middle-wrapper">
+      <article class="projects" id="projects">
+        <h1>Projects</h1>
+        <ol class="project-grid">
+          <li>
+            <a href="https://alan.computer/clark" target="_blank"
+              ><b>Clark Massage Therapy</b></a
+            >
+            <i>(HTML)</i> --
+            <a 
+              href="https://github.com/astrimbu/clark"
+              target="_blank"
+              ><i>source code</i></a
+            >
+          </li>
+          <li>
+            <a href="https://alan.computer/expenses" target="_blank"
+              ><b>Expense Tracker</b></a
+            >
+            <i>(React)</i> --
+            <a
+              href="https://github.com/astrimbu/expenses/tree/master"
+              target="_blank"
+              ><i>source code</i></a
+            >
+          </li>
+          <li>
+            <a href="https://alan.computer" target="_blank"
+              ><b>Personal Portfolio</b></a
+            >
+            <i>(HTML)</i> --
+            <a
+              href="https://github.com/astrimbu/astrimbu.github.io"
+              target="_blank"
+              ><i>source code</i></a
+            >
+          </li>
+          <li>4</li>
+        </ol>
+      </article>
 
-          <article class="projects" id="projects">
-            <h1>Projects</h1>
-            <ol class="project-grid">
-              <li>
-                <a href="https://alan.computer/expenses" target="_blank"
-                  ><b>Expenses</b></a
-                >
-                <i>(React)</i> --
-                <a
-                  href="https://github.com/astrimbu/expenses/tree/master"
-                  target="_blank"
-                  ><i>source code</i></a
-                >
-              </li>
-              <li>
-                <a href="https://alan.computer" target="_blank"
-                  ><b>Alan.computer</b></a
-                >
-                <i>(HTML)</i> --
-                <a
-                  href="https://github.com/astrimbu/astrimbu.github.io"
-                  target="_blank"
-                  ><i>source code</i></a
-                >
-              </li>
-              <li>3</li>
-              <li>4</li>
-            </ol>
-          </article>
-
-          <article class="skills" id="skills">
-            <h1>Technical Skills</h1>
-            <section>
-              <h1>Front-end</h1>
-              <ol>
-                <li>
-                  <a
-                    href="https://reactjs.org/docs/components-and-props.html"
-                    target="_blank"
-                    >React</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                    target="_blank"
-                    >HTML5</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                    target="_blank"
-                    >CSS3</a
-                  >
-                </li>
-              </ol>
-            </section>
-            <section>
-              <h1>Back-end</h1>
-              <ol>
-                <li>
-                  <a href="https://docs.python.org/3/" target="_blank"
-                    >Python</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/module-summary.html"
-                    target="_blank"
-                    >Java</a
-                  >
-                </li>
-                <li>
-                  <a href="https://nodejs.org/api/synopsis.html" target="_blank"
-                    >Node.js</a
-                  >
-                </li>
-                <li>
-                  <a href="https://nextjs.org/docs" target="_blank">Next.js</a>
-                </li>
-                <li>
-                  <a href="https://restfulapi.net/" target="_blank">REST API</a>
-                </li>
-              </ol>
-            </section>
-            <section>
-              <h1>Other</h1>
-              <ol>
-                <li>
-                  <a href="https://git-scm.com/docs" target="_blank">Git</a>
-                </li>
-                <li><a href="https://vimhelp.org/" target="_blank">Vim</a></li>
-                <li>
-                  <a href="https://linux.die.net/man/" target="_blank">Linux</a>
-                </li>
-                <li>
-                  <a href="https://code.visualstudio.com/docs" target="_blank"
-                    >VS Code</a
-                  >
-                </li>
-              </ol>
-            </section>
-          </article>
-
-          <article class="contact" id="contact">
-            <h1>Contact</h1>
-            <p>
+      <article class="skills" id="skills">
+        <h1>Technical Skills</h1>
+        <section>
+          <h1>Front-end</h1>
+          <ol>
+            <li>
               <a
-                href="https://www.linkedin.com/in/alan-strimbu-a8a4b85b/"
+                href="https://reactjs.org/docs/components-and-props.html"
                 target="_blank"
-                >LinkedIn</a
+                >React</a
               >
-            </p>
-          </article>
-        </div>
-      </main>
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                target="_blank"
+                >HTML5</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                >CSS3</a
+              >
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h1>Back-end</h1>
+          <ol>
+            <li>
+              <a href="https://docs.python.org/3/" target="_blank"
+                >Python</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://docs.oracle.com/en/java/javase/18/docs/api/java.base/module-summary.html"
+                target="_blank"
+                >Java</a
+              >
+            </li>
+            <li>
+              <a href="https://nodejs.org/api/synopsis.html" target="_blank"
+                >Node.js</a
+              >
+            </li>
+            <li>
+              <a href="https://nextjs.org/docs" target="_blank">Next.js</a>
+            </li>
+            <li>
+              <a href="https://restfulapi.net/" target="_blank">REST API</a>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h1>Other</h1>
+          <ol>
+            <li>
+              <a href="https://git-scm.com/docs" target="_blank">Git</a>
+            </li>
+            <li><a href="https://vimhelp.org/" target="_blank">Vim</a></li>
+            <li>
+              <a href="https://linux.die.net/man/" target="_blank">Linux</a>
+            </li>
+            <li>
+              <a href="https://code.visualstudio.com/docs" target="_blank"
+                >VS Code</a
+              >
+            </li>
+          </ol>
+        </section>
+      </article>
 
-      <footer></footer>
+      <article class="contact" id="contact">
+        <h1>Contact</h1>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/alan-strimbu-a8a4b85b/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+      </article>
+    </div>
+  </main>
 
-      <div class="egg"></div>
-    </body>
-  </head>
+  <footer></footer>
+</body>
+</head>
 </html>
