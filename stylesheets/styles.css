@@ -53,6 +53,11 @@ header {
   text-align: center;
   background: #111;
 }
+.me {
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 1em;
+}
 .subtitle {
   width: fit-content;
   margin: auto;
@@ -74,7 +79,7 @@ article {
   padding: 2em;
 }
 
-.skills > section {
+.interests > section {
   padding: 1em 0;
 }
 
@@ -136,16 +141,16 @@ nav a:visited {
   text-decoration: underline;
 }
 
-.skills {
+.interests {
   background: #444;
   width: fit-content;
   margin: 0 auto;
 }
-.skills a,
-.skills a:hover {
+.interests a,
+.interests a:hover {
   color: white;
 }
-.skills a:hover {
+.interests a:hover {
   text-decoration: underline;;
 }
 
@@ -185,23 +190,20 @@ nav a:visited {
 
 @media only screen and (max-width: 2200px) {
   .alan {
-    font-size: 6em;
+    font-size: 4em;
   }
 }
 @media only screen and (max-width: 1400px) {
   .alan {
-    font-size: 5em;
+    font-size: 3em;
   }
 }
 @media only screen and (max-width: 1000px) {
   .alan {
-    font-size: 4em;
+    font-size: 2em;
   }
 }
 @media only screen and (max-width: 700px) {
-  .alan {
-    font-size: 3em;
-  }
   li.menu {
     display: none;
   }
