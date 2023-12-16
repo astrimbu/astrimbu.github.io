@@ -43,7 +43,8 @@ header {
   margin: 0;
   background: #222;
 }
-.alan {
+
+.name {
   width: fit-content;
   margin: auto;
   padding: 0 0.2em;
@@ -53,11 +54,17 @@ header {
   text-align: center;
   background: #111;
 }
+
 .me {
   margin: auto;
   width: fit-content;
   margin-bottom: 1em;
+  transition: transform 0.3s ease-in-out;
 }
+.me:hover {
+  transform: scale(1.05);
+}
+
 .subtitle {
   width: fit-content;
   margin: auto;
@@ -89,15 +96,6 @@ article {
   margin: 0;
   display: inline;
   padding: 10px;
-}
-
-.hamburger {
-  text-decoration: none;
-  display: none;
-  font-weight: 900;
-  float: right;
-  margin: 0.5em 0 0 0;
-  line-height: 3em;
 }
 
 a {
@@ -189,17 +187,17 @@ nav a:visited {
 }
 
 @media only screen and (max-width: 2200px) {
-  .alan {
+  .name {
     font-size: 4em;
   }
 }
 @media only screen and (max-width: 1400px) {
-  .alan {
+  .name {
     font-size: 3em;
   }
 }
 @media only screen and (max-width: 1000px) {
-  .alan {
+  .name {
     font-size: 2em;
   }
 }
