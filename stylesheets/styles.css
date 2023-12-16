@@ -207,7 +207,11 @@ nav a:visited {
   li.menu {
     display: none;
   }
-  .hamburger {
-    display: inline;
+  nav {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .home {
+    float: none;
   }
 }
