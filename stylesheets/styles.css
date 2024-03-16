@@ -65,22 +65,6 @@ header {
   transform: scale(1.05);
 }
 
-.subtitle {
-  width: fit-content;
-  margin: auto;
-  text-align: center;
-}
-.subtitle h1,
-.subtitle p {
-  padding: 10px;
-}
-.subtitle h1 {
-  background: #444;
-}
-.subtitle p {
-  background: linear-gradient(45deg, #05469685, #e4002b85);
-}
-
 article {
   margin: 40px;
   padding: 2em;
