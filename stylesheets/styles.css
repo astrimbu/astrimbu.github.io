@@ -142,25 +142,6 @@ nav a:visited {
   grid-gap: 10px;
 }
 
-.contact > p {
-  width: fit-content;
-  height: 1em;
-  margin: 0 auto;
-  background: #ddd;
-  color: #000;
-  padding: 10px;
-  box-shadow: 4px 8px #333;
-}
-.contact > p:hover {
-  cursor: pointer;
-  background: #fff;
-  text-decoration: underline;
-}
-.contact a,
-.contact a:hover {
-  color: black;
-}
-
 .projects a,
 .projects a:visited {
   color: white;
