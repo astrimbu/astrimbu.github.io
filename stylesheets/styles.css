@@ -59,10 +59,11 @@ header {
   margin: auto;
   width: fit-content;
   margin-bottom: 1em;
-  transition: transform 0.3s ease-in-out;
+  filter: grayscale(100%);;
+  transition: filter 0.3s ease-in-out;
 }
 .me:hover {
-  transform: scale(1.05);
+  filter: none;
 }
 
 article {
