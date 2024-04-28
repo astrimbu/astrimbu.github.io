@@ -71,6 +71,7 @@ header {
 
 .hmggf {
   filter: grayscale(100%);
+  margin-bottom: 2.2em;
 }
 .hmggf:hover {
   filter: none;
