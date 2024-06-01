@@ -159,17 +159,37 @@ nav a:visited {
 .project-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
+  grid-gap: 1em;
+  padding: 2em;
+  width: fit-content;
+  margin: auto;
+}
+.project-grid a {
+  padding: 2em;
+  background-size: 100% auto;
+  background-blend-mode: soft-light;
+  background-color: #1a1a1a;
 }
 
 .projects a,
 .projects a:visited {
   color: white;
-  text-decoration: underline;
 }
 .projects a:hover {
-  text-decoration: none;
+  background-color: #888;
+  text-shadow: #000 2px 2px;
 }
+
+.research {
+  background-image: url("../project-research.png");
+}
+.ww {
+  background-image: url("../project-ww.png");
+}
+.alan {
+  background-image: url("../project-alan.png");
+}
+
 
 @media only screen and (max-width: 2200px) {
   .name {
