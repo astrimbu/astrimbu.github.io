@@ -171,6 +171,9 @@ nav a:visited {
   background-color: #1a1a1a;
 }
 
+.projects {
+  background-color: #222;
+}
 .projects a,
 .projects a:visited {
   color: white;
