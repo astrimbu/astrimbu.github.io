@@ -9,7 +9,7 @@
 body,
 html {
   scroll-behavior: smooth;
-  background: #000;
+  background: #111;
   color: #fff;
   height: 95%;
   width: 100%;
@@ -34,7 +34,7 @@ main {
 }
 
 header {
-  background: #000;
+  background: #111;
   height: 3em;
   line-height: 3em;
 }
@@ -160,7 +160,7 @@ nav a:visited {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1em;
-  padding: 2em;
+  padding: 2em 0 2em 0;
   width: fit-content;
   margin: auto;
 }
