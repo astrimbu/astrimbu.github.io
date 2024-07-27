@@ -69,22 +69,6 @@ header {
   font-family: monospace;
 }
 
-.hmggf {
-  filter: grayscale(100%);
-  margin-bottom: 2.2em;
-}
-.hmggf:hover {
-  filter: none;
-}
-@media only screen and (max-width: 1485px) {
-  .hmggf {
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 article {
   margin: 40px;
   padding: 2em;
