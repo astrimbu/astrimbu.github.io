@@ -25,8 +25,7 @@ main {
 }
 
 .middle-wrapper {
-  left: 10%;
-  width: 80%;
+  width: 100%;
   padding-bottom: 1em;
   margin-bottom: 70px;
   position: absolute;
@@ -155,9 +154,6 @@ nav a:visited {
   background-color: #1a1a1a;
 }
 
-.projects {
-  background-color: #222;
-}
 .projects a,
 .projects a:visited {
   color: white;
