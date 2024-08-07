@@ -44,11 +44,12 @@ header {
 }
 
 .name {
+  font-size: 3em;
   width: fit-content;
   margin: auto;
   padding: 0 0.2em;
   font-weight: normal;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
   font-family: "youngserifregular";
   text-align: center;
   background: #111;
@@ -57,20 +58,24 @@ header {
 .me {
   margin: auto;
   width: fit-content;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
   filter: grayscale(100%);
 }
 .me:hover {
   filter: none;
 }
 
-.thoughts {
+.thoughts h3 {
   font-family: monospace;
+}
+.thoughts {
+  width: fit-content;
+  margin: 0 auto;
 }
 
 article {
-  margin: 40px;
-  padding: 2em;
+  margin: 0;
+  padding: 1em;
 }
 
 .interests > section {
@@ -143,7 +148,7 @@ nav a:visited {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1em;
-  padding: 2em 0 2em 0;
+  padding: 0;
   width: fit-content;
   margin: auto;
 }
@@ -151,7 +156,7 @@ nav a:visited {
   padding: 2em;
   background-size: 100% auto;
   background-blend-mode: soft-light;
-  background-color: #1a1a1a;
+  background-color: #555;
 }
 
 .projects a,
@@ -177,14 +182,9 @@ nav a:visited {
 }
 
 
-@media only screen and (max-width: 2200px) {
-  .name {
-    font-size: 4em;
-  }
-}
 @media only screen and (max-width: 1400px) {
   .name {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -193,6 +193,9 @@ nav a:visited {
   }
 }
 @media only screen and (max-width: 700px) {
+  .name {
+    font-size: 1.5em;
+  }
   li.menu {
     display: none;
   }

@@ -34,44 +34,60 @@
   <main>
     <!-- Hero -->
     <article class="about-hero">
-      <h1 class="name">Alan S</h1>
-      <section class="me">
-        <img
-          srcset="alan_transparent_small.png 361w, alan_transparent_smaller.png 180w"
-          sizes="(max-width: 1000px) 180px,
-                 361px"
-          src="./alan_transparent_small.png" />
-      </section>
+      <div style="text-align: center;">
+        <h1 class="name">hi, i'm alan</h1>
+        <section class="me">
+          <img
+            srcset="alan_transparent_small.png 361w, alan_transparent_smaller.png 180w"
+            sizes="(max-width: 1000px) 180px,
+                  361px"
+            src="./alan_transparent_small.png" />
+        </section>
+        <h2>welcome to my personal website</h2>
+        <h3>i host some random projects here</h3>
+        <h4>(code is on <a href="https://github.com/astrimbu">github</a> if interested)</h4>
+      </div>
     </article>
 
     <!-- Centered articles -->
     <div class="middle-wrapper">
       <article class="thoughts" id="thoughts">
-        <h3>you can just <i>do things</i></h3>
-        <hr style="max-width: 800px"/>
-        <p>studying llms</p>
-        <p>building web apps</p>
-        <hr style="max-width: 800px"/>
-        <p>2yrs - full stack developer - ml/nlp startup</p>
-        <p>b.s. computer science, depaul university</p>
+        <h3 style="background-color:#003831; color:#EFB21E;">you can just<br/><span style="font-size: 2em"><i>do things</i></span></h3>
+        <hr style="max-width: 500px"/>
+        <b>Current focus</b> - web development in React, also LLMs<br/>
+        <b>Current project</b> - making an 'MMORPG' in React, for fun<br/>
+        <b>Latest</b> - consolidate state logic by refactoring to a Reducer
       </article>
 
       <article class="projects" id="projects">
         <h1>Projects</h1>
-        <span style="font-size: 0.5em; font-style: italic;">Interesting projects Coming Soon™</span>
         <div class="project-grid">
+          <a href="https://alan.computer/coinflip" target="_blank" class="coinflip"
+            ><b>Coinflip Game</b></a
+          >
+          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
+            (Write-up / posts coming soon™)<br/>
+            <code>useReducer</code> & it's uses re: race conditions,<br/>
+            and reducing the complexity of state update logic.
+          </p>
           <a href="https://alan.computer/research" target="_blank" class="research"
             ><b>Research</b></a
           >
-          <a href="https://alan.computer/coinflip" target="_blank" class="coinflip"
-            ><b>Coinflip</b></a
-          >
-          <a href="https://alan.computer/clark" target="_blank" class="ww"
-            ><b>Weaver Wellness</b></a
-          >
+          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
+            Making a little web of attention, nothing special yet.
+          </p>
           <a href="#!" target="" class="alan"
             ><b>This Site</b></a
           >
+          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
+            You are here - my personal website.
+          </p>
+          <a href="https://alan.computer/clark" target="_blank" class="ww"
+            ><b>Weaver Wellness</b></a
+          >
+          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
+            Website mock-up for a massage therapist.
+          </p>
         </div>
       </article>
     </div>
