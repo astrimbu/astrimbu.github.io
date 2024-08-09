@@ -40,19 +40,8 @@ header {
 
 .about-hero {
   margin: 0;
+  padding: 2em;
   background: #222;
-}
-
-.name {
-  font-size: 3em;
-  width: fit-content;
-  margin: auto;
-  padding: 0 0.2em;
-  font-weight: normal;
-  margin-bottom: 0.2em;
-  font-family: "youngserifregular";
-  text-align: center;
-  background: #111;
 }
 
 .me {
@@ -72,17 +61,14 @@ header {
   width: fit-content;
   margin: 0 auto;
   background-color: #673AB7;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  justify-content: center;
 }
 
 article {
   margin: 0;
   padding: 1em;
-}
-
-.interests > section {
-  padding: 1em 0;
 }
 
 .logo {
@@ -95,6 +81,7 @@ article {
 
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 ul,
@@ -129,21 +116,7 @@ nav a:visited {
 .home {
   float: left;
 }
-
 .menu a:hover {
-  text-decoration: underline;
-}
-
-.interests {
-  background: linear-gradient(135deg, #555, #333);
-  width: fit-content;
-  margin: 0 auto;
-}
-.interests a,
-.interests a:hover {
-  color: white;
-}
-.interests a:hover {
   text-decoration: underline;
 }
 
@@ -161,14 +134,22 @@ nav a:visited {
   background-blend-mode: soft-light;
   background-color: #555;
 }
+.project-grid p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0;
+}
 
 .projects a,
 .projects a:visited {
+  font-size: 1.5em;
+  padding: 30px;
   color: white;
+  text-shadow: #000 2px 2px;
 }
 .projects a:hover {
   background-color: #888;
-  text-shadow: #000 2px 2px;
+  text-shadow: #000 3px 3px;
 }
 
 .research {

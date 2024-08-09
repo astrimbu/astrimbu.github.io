@@ -42,58 +42,71 @@
                   361px"
             src="./alan_transparent_small.png" />
         </section>
-        Hi, I'm Alan. You found my website.<br />
-        Code for everything is on my <a href="https://github.com/astrimbu">GitHub</a>.
+        Hi, I'm Alan<br/>
+        Code for everything is on
+        <a href="https://github.com/astrimbu" target="_blank">GitHub</a>.
       </div>
     </article>
 
     <!-- Centered articles -->
     <div class="middle-wrapper">
       <article class="thoughts" id="thoughts">
-          Currently building with <b>React</b>.<br/>
+        <div style="display:flex;align-items:center;gap:5px;">
+          Currently building with
+          <a href="https://react.dev/reference/react" target="_blank" style="
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          ">
+            React
+            <img src="./logo_dark.svg" style="width:1em;height:1em">
+          </a>
+        </div>
       </article>
 
       <article class="projects" id="projects">
-        <h1>Projects</h1>
+        <h1><code>+------Projects------+</code></h1>
         <div class="project-grid">
           <a href="https://alan.computer/coinflip" target="_blank" class="coinflip"
-            ><b>Coinflip Game</b></a
+            ><b>Coinflip</b></a
           >
-          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
-            (Write-up / posts coming soon™)<br/>
-            <code>useReducer</code> & it's uses re: race conditions,<br/>
-            and reducing the complexity of state update logic.
+          <p>
+            Minimalistic RPG clone, written in React.<br/>
+            Manages inventory/equipment state with a <code>reducer</code>.
           </p>
           <a href="https://alan.computer/mandelbrot" target="_blank" class="mandelbrot"
-            ><b>Mandelbrot Viz</b></a
+            ><b>Mandelbrot</b></a
           >
-          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
-            Pan and zoom thru a Mandelbrot fractal in React.
+          <p>
+              Pan and zoom thru a Mandelbrot fractal, written in React.<br/>
+              Recommend staying <= 200 iterations.
           </p>
           <a href="https://alan.computer/research" target="_blank" class="research"
-            ><b>Research</b></a
+            ><b>Notes</b></a
           >
-          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
-            Making a little web of attention, nothing special yet.
+          <p>
+              Quartz 4.0 static-site generation of my <code>.md</code> notes.<br/>
+              Still adding content, but check out the graph view.
           </p>
           <a href="#!" target="" class="alan"
-            ><b>This Site</b></a
+            ><b><code>this.site</code></b></a
           >
-          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
-            You are here - my personal website.
+          <p>
+            My website / random project gallery.
           </p>
           <a href="https://alan.computer/clark" target="_blank" class="ww"
-            ><b>Weaver Wellness</b></a
+            ><b>WW</b></a
           >
-          <p style="font-size: 0.6em; font-style: italic; margin: 0 0 20px 0;">
-            Website mock-up for a massage therapist.
+          <p>
+            Mock-up website layout for a massage therapist.
           </p>
         </div>
       </article>
+      <div style="margin: 2em 0 1em 0;">
+        <a href="#top" style="color: #f1f1f1">(back to top)</a>
+      </div>
     </div>
   </main>
-
-  <footer></footer>
 </body>
-</head>
 </html>
