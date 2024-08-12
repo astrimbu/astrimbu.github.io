@@ -1,117 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>alan.computer</title>
-
-  <link rel="stylesheet" href="stylesheets/styles.css" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Karla:400,700"
-    rel="stylesheet"
-  />
-
-  <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
+
 <body>
-  <header>
-    <nav role="navigation">
-      <div class="logo-container">
-        <a href="#top" class="home">
-          <h1 class="logo">alan . computer</h1>
-        </a>
-      </div>
+  <div class="header">
+    <section id="intro">
+      <h2>About Me</h2>
+      Alan - React/web dev<br />
+      <i>B.S. Computer Sicence, DePaul</i><br />
+      Professional LLM prompter, git push-er, rm rf-er<br />
+      <br />
+      I am currently accepting memes:<br />
+      <span style="background-color:#dedede"><b>@astrimbu</b> on <a href="https://www.x.com/astrimbu"
+          target="_blank">𝕏</a> / gmail</span><br />
+      <br />
+    </section>
+    <section id="featured-post">
+      <h2>Currently Thinking About</h2>
       <ul>
-        <li class="menu"><a href="#projects">Projects</a></li>
+        <li><a href="https://alan.computer/research/Neovim" target="_blank">Neovim</a> |
+        <li><a href="https://alan.computer/research/React" target="_blank">React</a> |
+        <li><a href="https://alan.computer/mandelbrot" target="_blank">visualizations</a> |
+        <li><a href="https://alan.computer/research/LLM" target="_blank">LLMs</a> |
+        <li>🍕
       </ul>
-    </nav>
-  </header>
+    </section>
+  </div>
 
-  <main>
-    <!-- Hero -->
-    <article class="about-hero">
-      <div style="text-align: center;">
-        <section class="me">
-          <img
-            srcset="alan_transparent_small.png 361w, alan_transparent_smaller.png 180w"
-            sizes="(max-width: 1000px) 180px,
-                  361px"
-            src="./alan_transparent_small.png" />
-        </section>
-        Hi, I'm Alan<br/>
-        Code for everything is on
-        <a href="https://github.com/astrimbu" target="_blank">GitHub</a>.
+  <section id=" projects">
+    <h2>Projects</h2>
+    <p style="font-size:0.8em">
+      Code for all projects on <a href="https://www.github.com/astrimbu" target="_blank">GitHub</a>.
+    </p>
+    <div id="project-grid">
+      <div class="project-item">
+        <img src="./project-mandelbrot.png" alt="Mandelbrot" />
+        <h3>Mandelbrot</h3>
+        <p>Pan/zoom around a Mandelbrot fractal. Recommend staying <= 200 iterations.</p>
+            <a href="https://alan.computer/mandelbrot" target="_blank">View Project</a>
       </div>
-    </article>
-
-    <!-- Centered articles -->
-    <div class="middle-wrapper">
-      <article class="thoughts" id="thoughts">
-        <div style="display:flex;align-items:center;gap:5px;">
-          Currently building with
-          <a href="https://react.dev/reference/react" target="_blank" style="
-            color: white;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-          ">
-            React
-            <img src="./logo_dark.svg" style="width:1em;height:1em">
-          </a>
-        </div>
-      </article>
-
-      <article class="projects" id="projects">
-        <h1><code>+----Projects----+</code></h1>
-        <div class="project-grid">
-          <a href="https://alan.computer/coinflip" target="_blank" class="coinflip"
-            ><b>Coinflip</b></a
-          >
-          <p>
-            Minimalistic RPG clone, written in React.<br/>
-            Manages inventory state with a <code>reducer</code>.
-          </p>
-          <br/>
-          <a href="https://alan.computer/mandelbrot" target="_blank" class="mandelbrot"
-            ><b>Mandelbrot</b></a
-          >
-          <p>
-              Pan/zoom around a Mandelbrot fractal.<br/>
-              Recommend staying <= 200 iterations.<br/>
-          </p>
-          <br/>
-          <a href="https://alan.computer/research" target="_blank" class="research"
-            ><b>Notes</b></a
-          >
-          <p>
-              Quartz 4.0 SSG x my <code>.md</code> notes.<br/>
-              Still adding content...<br/>
-              (Check out the graph view)
-          </p>
-          <br/>
-          <a href="#!" target="" class="alan"
-            ><b><code>this.site</code></b></a
-          >
-          <p>
-            My website, project gallery.
-          </p>
-          <br/>
-          <a href="https://alan.computer/clark" target="_blank" class="ww"
-            ><b>WW</b></a
-          >
-          <p>
-            Mock website for a massage therapist.
-          </p>
-        </div>
-      </article>
-      <div style="margin: 2em 0 1em 0;">
-        <a href="#top" style="color: #f1f1f1">(back to top)</a>
+      <div class="project-item">
+        <img src="./project-coinflip.png" alt="Coinflip" />
+        <h3>Coinflip</h3>
+        <p>Minimalistic RPG game written in React.<br />
+          Click the black potion, then spam-click the Flip button. Will make this less awful soon lol.</p>
+        <p>Lessons: useReducer hook, React/js refresher</p>
+        <a href="https://alan.computer/coinflip" target="_blank">View Project</a>
+      </div>
+      <div class="project-item">
+        <img src="./project-research.png" alt="Notes" />
+        <h3>Notes</h3>
+        <p>Random notes. Graph view is neat.</p>
+        <p>Site built by Quartz 4.0 SSG with my Obsidian Markdown notes. Look up digital garden if you like this.</p>
+        <a href="https://alan.computer/research" target="_blank">View Project</a>
+      </div>
+      <div class="project-item">
+        <img src="./project-alan.png" alt="Personal Website" />
+        <h3>Personal Website</h3>
+        <p>My website, gallery for projects.</p>
+        <a href="#!">View Project</a>
+      </div>
+      <div class="project-item">
+        <img src="./project-ww.png" alt="Weaver Wellness" />
+        <h3>Weaver Wellness</h3>
+        <p>Mock website for a massage therapist.</p>
+        <a href="https://alan.computer/clark" target="_blank">View Project</a>
       </div>
     </div>
-  </main>
+  </section>
+  <br /><br /><br />
+  <a href="#top">(return to top)</a>
+  <br />
+  <h2>:wq</h2>
 </body>
+
 </html>
