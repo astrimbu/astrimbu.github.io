@@ -40,7 +40,7 @@ body {
 
 .intro i,
 .featured-post ul {
-  list-style: simp-chinese-informal;
+  list-style: auto;
   text-align: right;
   margin: 0;
   padding: 0;
@@ -50,7 +50,7 @@ body {
 #top {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 70%;
   margin: auto;
   padding: 15px;
