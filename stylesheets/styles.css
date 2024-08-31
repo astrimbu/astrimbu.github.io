@@ -32,6 +32,7 @@ body {
   margin: auto;
   padding: 15px;
   border-bottom: 2px solid #dedede;
+  color: #111;
 }
 
 .intro i {
@@ -40,10 +41,20 @@ body {
 
 .intro i,
 .featured-post ul {
-  list-style: auto;
+  list-style: disc;
   text-align: right;
+  line-height: 1.5em;
   margin: 0;
   padding: 0;
+}
+
+.featured-post a {
+  color: #111;
+  text-decoration: none;
+}
+
+.featured-post a:hover {
+  text-decoration: underline;
 }
 
 .projects,
@@ -115,6 +126,21 @@ body {
   background-color: #eee;
   color: #111;
   max-width: 1000px;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #111;
+  margin-top: 10px;
+}
+.github-link:hover {
+  text-decoration: underline;
+}
+
+.github-link img {
+  margin-right: 5px;
 }
 
 @media only screen and (max-width: 800px) {
