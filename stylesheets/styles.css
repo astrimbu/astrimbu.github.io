@@ -103,21 +103,6 @@ body {
   padding: 25px;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin: auto;
-  padding: 25px;
-  border-top: 2px solid #dedede;
-}
-
-.footer a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
 body {
   font-family: consolas, monospace;
   align-items: center;
