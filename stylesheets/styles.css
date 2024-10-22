@@ -3,7 +3,7 @@ body {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  background-color: #eee;
+  background-color: #ddd;
   color: #111;
   max-width: 1000px;
 }
@@ -16,7 +16,6 @@ body {
   width: 70%;
   margin: auto;
   padding: 10px;
-  border-bottom: 2px solid #dedede;
 }
 
 .header h2 {
@@ -31,7 +30,6 @@ body {
   width: 70%;
   margin: auto;
   padding: 15px;
-  border-bottom: 2px solid #dedede;
   color: #111;
 }
 
@@ -64,7 +62,6 @@ body {
   align-items: flex-start;
   width: 70%;
   margin: auto;
-  padding: 15px;
 }
 
 .project-item {
@@ -80,6 +77,12 @@ body {
 .project-item img {
   width: 150px;
   height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.project-item img:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 }
 
 .project-item h3 {
@@ -101,16 +104,6 @@ body {
   padding: 25px;
 }
 
-body {
-  font-family: consolas, monospace;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  background-color: #eee;
-  color: #111;
-  max-width: 1000px;
-}
-
 .github-link {
   display: inline-flex;
   align-items: center;
@@ -123,6 +116,18 @@ body {
 
 .github-link img {
   margin-right: 5px;
+}
+
+.projects-header {
+  text-align: center;
+  margin: 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
 
 @media only screen and (max-width: 800px) {
