@@ -27,16 +27,39 @@
       <li><a href="#!">Explainable AI (XAI)</a></li>
     </ul>
   </div>
+
+  <div class="asset-pipeline-demo">
+    <h3>Asset Pipeline Demo</h3>
+    <div class="demo-container">
+      <div class="demo-column left-column">
+        <!-- 2D image -->
+        <img src="./demo.png" alt="2D image" class="demo-image">
+      </div>
+      <div class="demo-column middle-column">
+        <!-- three.js viewport with 3D model -->
+        <div id="model-viewer">
+          <div id="load-overlay">
+            <button id="load-model">Click to Load 3D Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="demo-column right-column" style="display: flex; justify-content: center; align-items: center;">
+        - [ ] spritesheets<br/>
+        - [ ] animations
+      </div>
+    </div>
+  </div>
+
   <h3 class="projects-header">Projects</h3>
   <div class="projects">
     <div class="project">
       <div class="project-item">
-        <a href="https://alan.computer/coinflip" target="_blank">
-          <img src="./project-coinflip.png" alt="game image">
+        <a href="#!" target="">
+          <img src="#!" alt="placeholder">
         </a>
-        <h3>React RPG</h3>
-        <p>RPG exercise in React</p>
-        <a href="https://alan.computer/coinflip" target="_blank">View Project</a>
+        <h3>Godot Prototype</h3>
+        <p>Coming soon</p>
+        <a href="#!" target="">View Project</a>
       </div>
     </div>
     <div class="project">
@@ -59,17 +82,23 @@
         <a href="https://alan.computer/research" target="_blank">View Project</a>
       </div>
     </div>
-    <div class="project">
+    <div class="project"></div>
       <div class="project-item">
-        <a href="#!" target="">
-          <img src="#!" alt="placeholder">
+        <a href="https://alan.computer/coinflip" target="_blank">
+          <img src="./project-coinflip.png" alt="game image">
         </a>
-        <h3>Godot Prototype</h3>
-        <p>Coming soon</p>
-        <a href="#!" target="">View Project</a>
+        <h3>React RPG</h3>
+        <p>RPG exercise in React</p>
+        <a href="https://alan.computer/coinflip" target="_blank">View Project</a>
       </div>
     </div>
   </div>
+
+  <script src="js/three.min.js"></script>
+  <script src="js/OrbitControls.js"></script>
+  <script src="js/FBXLoader.js"></script>
+  <script src="js/fflate.min.js"></script>
+  <script src="js/viewer.js"></script>
 </body>
 
 </html>
