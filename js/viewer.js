@@ -33,29 +33,35 @@ function loadThreeJS() {
 function initViewer() {
   // Set up the scene, camera, and renderer
   const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
-  const renderer = new THREE.WebGLRenderer();
+  const camera = new THREE.PerspectiveCamera(45, 1, 1, 1000);
+  const renderer = new THREE.WebGLRenderer({ alpha: true });
 
   const container = document.getElementById('model-viewer');
   renderer.setSize(container.clientWidth, container.clientHeight);
   container.appendChild(renderer.domElement);
 
   // Add lights
-  const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+  const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
   scene.add(ambientLight);
-  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.7);
   directionalLight.position.set(0, 1, 0);
   scene.add(directionalLight);
+  const pointLight = new THREE.PointLight(0xffffff, 0.7);
+  pointLight.position.set(5, 5, 5);
+  scene.add(pointLight);
+  const hemisphereLight = new THREE.HemisphereLight(0xffffff, 0x444444, 0.7);
+  hemisphereLight.position.set(0, 20, 0);
+  scene.add(hemisphereLight);
 
   // Set up OrbitControls
   const controls = new THREE.OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
   controls.dampingFactor = 0.25;
   controls.screenSpacePanning = false;
-  controls.maxPolarAngle = Math.PI / 2;
+  controls.maxPolarAngle = Math.PI;
 
-  // Set renderer to have a transparent background
-  renderer.setClearColor(0x000000, 0); // Set alpha to 0 for full transparency
+  // Set renderer to have a light grey background
+  renderer.setClearColor(0x7f7f7f, 1);
 
   // Load the 3D model
   const loader = new THREE.FBXLoader();
@@ -79,7 +85,7 @@ function initViewer() {
       const size = new THREE.Vector3();
       box.getSize(size);
       const maxDim = Math.max(size.x, size.y, size.z);
-      camera.position.set(0, 0, maxDim);
+      camera.position.set(0, 0, maxDim * 1.5);
       camera.lookAt(0, 0, 0);
 
       // Adjust OrbitControls
