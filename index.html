@@ -29,22 +29,21 @@
   </div>
 
   <div class="asset-pipeline-demo">
-    <h3>Image to 3D Model to Sprite Sheet</h3>
+    <h3>Image > 3D Model > Sprites</h3>
     <div class="demo-container">
-      <div class="demo-column left-column">
-        <img src="./demo.png" alt="2D image" class="demo-image">
-      </div>
-      <div class="demo-column middle-column">
-        <!-- three.js viewport, 3D model -->
-        <div id="model-viewer">
-          <div id="load-overlay">
-            <button id="load-model">Click to Load 3D Model</button>
+      <div class="demo-stage" id="demo-stage">
+        <div class="demo-navigation">
+          <button class="nav-button" id="prev-button">&lt;</button>
+          <div class="demo-content">
+            <img src="./demo.png" alt="2D image" class="demo-image" id="initial-image">
+            <div id="model-viewer" style="display: none;"></div>
+            <div id="sprites-view" style="display: none;">
+              <img src="./demo-dance.gif" alt="animation" class="demo-image">
+              <img src="./demo-spritesheet.png" alt="spritesheet" class="demo-image" style="margin-top: 10px;">
+            </div>
           </div>
+          <button class="nav-button" id="next-button">&gt;</button>
         </div>
-      </div>
-      <div class="demo-column right-column" style="display: flex; justify-content: center; align-items: center;">
-        - [ ] spritesheet<br/>
-        - [ ] animation
       </div>
     </div>
   </div>
