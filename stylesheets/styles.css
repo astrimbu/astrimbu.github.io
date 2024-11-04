@@ -22,8 +22,7 @@ body {
   text-align: center;
 }
 
-.intro,
-.featured-post {
+.featured {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,12 +32,7 @@ body {
   color: #111;
 }
 
-.intro i {
-  font-size: 0.8em;
-}
-
-.intro i,
-.featured-post ul {
+.featured ul {
   list-style: disc;
   text-align: right;
   line-height: 1.5em;
@@ -46,12 +40,12 @@ body {
   padding: 0;
 }
 
-.featured-post a {
+.featured a {
   color: #111;
   text-decoration: none;
 }
 
-.featured-post a:hover {
+.featured a:hover {
   text-decoration: underline;
 }
 
@@ -190,13 +184,12 @@ body {
 
 @media only screen and (max-width: 800px) {
 
-  .intro,
-  .featured-post,
+  .featured,
   .projects {
     display: block;
   }
 
-  .featured-post ul {
+  .featured ul {
     width: fit-content;
     margin: 0 auto;
     text-align: center;
@@ -255,4 +248,10 @@ body {
   max-width: 150px;
   width: auto;
   height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
