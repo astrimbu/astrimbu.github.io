@@ -3,9 +3,10 @@ body {
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  padding: 0 20px;
   background-color: #ddd;
   color: #111;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .header,
@@ -25,37 +26,69 @@ body {
 .featured {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 70%;
   margin: auto;
+  margin-bottom: 15px;
   padding: 15px;
   color: #111;
+  outline: 1px solid #aaa;
 }
 
 .featured ul {
   list-style: disc;
   text-align: right;
-  line-height: 1.5em;
   margin: 0;
   padding: 0;
+}
+
+.featured li {
+  margin-bottom: 1em;
+}
+
+.featured li:last-child {
+  margin-bottom: 0;
 }
 
 .featured a {
   color: #111;
   text-decoration: none;
+  display: block;
 }
 
-.featured a:hover {
+.featured .title {
+  line-height: 1.4;
+  margin-bottom: 0.2em;
+}
+
+.featured .author {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #666;
+  line-height: 1.2;
+}
+
+.featured a:hover .title {
   text-decoration: underline;
 }
 
-.projects,
-#top {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+.projects {
   width: 70%;
   margin: auto;
+  padding: 15px;
+  outline: 1px solid #aaa;
+}
+
+.projects-header {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
 
 .project-item {
@@ -112,16 +145,10 @@ body {
   margin-right: 5px;
 }
 
-.projects-header {
-  text-align: center;
-  margin: 0;
-}
-
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  justify-items: center;
+@media only screen and (max-width: 800px) {
+  .project-grid {
+    display: block;
+  }
 }
 
 .asset-pipeline-demo {
@@ -254,4 +281,22 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+
+.featured h3 {
+  margin: 0;
+}
+
+.project-item img,
+.featured a,
+.nav-button {
+  transition: all 0.2s ease-out;
+}
+
+.demo-explanation {
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 15px;
+  padding: 0 20px;
 }
