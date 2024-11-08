@@ -131,20 +131,6 @@ body {
   padding: 25px;
 }
 
-.github-link {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: #111;
-}
-.github-link:hover {
-  text-decoration: underline;
-}
-
-.github-link img {
-  margin-right: 5px;
-}
-
 @media only screen and (max-width: 800px) {
   .project-grid {
     display: block;
@@ -281,6 +267,23 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+
+.social-link {
+  color: #111;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.social-link img {
+  opacity: 1;
 }
 
 .featured h3 {
