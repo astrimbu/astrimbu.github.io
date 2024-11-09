@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'FantasqueSans';
+  src: url('../fonts/FantasqueSansMNerdFontMono-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
 body {
-  font-family: consolas, monospace;
+  font-family: 'FantasqueSans', consolas, monospace;
   align-items: center;
   text-align: center;
   margin: 0 auto;
@@ -36,10 +42,14 @@ body {
 }
 
 .featured ul {
-  list-style: disc;
+  list-style: none;
   text-align: right;
   margin: 0;
   padding: 0;
+}
+
+.featured h3 {
+  margin: 0 0 16px 0;
 }
 
 .featured li {
@@ -141,7 +151,8 @@ body {
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
-  padding-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .demo-container {
@@ -267,6 +278,7 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .social-link {
@@ -284,10 +296,6 @@ footer {
 
 .social-link img {
   opacity: 1;
-}
-
-.featured h3 {
-  margin: 0;
 }
 
 .project-item img,
