@@ -311,3 +311,34 @@ footer {
   margin-top: 15px;
   padding: 0 20px;
 }
+
+.project-item a.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-item .view-project {
+  font-size: 0.9em;
+  color: #666;
+  text-decoration: none;
+  display: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.project-item .view-project.demo {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.project-item .view-project.repo {
+  background-color: #24292e;  /* GitHub's dark color */
+  color: white;
+}
+
+.project-item:hover .view-project,
+.project-item:focus-within .view-project {
+  display: inline-block;
+}
