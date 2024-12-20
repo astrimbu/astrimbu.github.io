@@ -97,7 +97,7 @@ body {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  gap: 0px;
   justify-items: center;
 }
 
@@ -106,8 +106,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding: 15px;
   border-radius: 8px;
 }
 
@@ -322,10 +322,13 @@ footer {
   font-size: 0.9em;
   color: #666;
   text-decoration: none;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   padding: 4px 8px;
   border-radius: 4px;
-  margin-top: 8px;
+  margin-top: 4px;
+  display: inline-block;
+  transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
 }
 
 .project-item .view-project.demo {
@@ -340,5 +343,6 @@ footer {
 
 .project-item:hover .view-project,
 .project-item:focus-within .view-project {
-  display: inline-block;
+  opacity: 1;
+  visibility: visible;
 }
