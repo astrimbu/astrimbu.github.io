@@ -48,7 +48,8 @@ body {
   padding: 0;
 }
 
-.featured h3 {
+.featured h3,
+.project-item h3 {
   margin: 0 0 16px 0;
 }
 
@@ -96,7 +97,7 @@ body {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   gap: 0px;
   justify-items: center;
 }
@@ -107,7 +108,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 5px;
-  padding: 15px;
+  padding: 5px;
   border-radius: 8px;
 }
 
@@ -115,11 +116,11 @@ body {
   width: 150px;
   height: 150px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .project-item img:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  opacity: 0.8;
 }
 
 .project-item h3 {
@@ -130,6 +131,7 @@ body {
 
 .project-item p {
   font-size: 0.8em;
+  margin: 8px 0;
 }
 
 .project-item a {
@@ -141,9 +143,15 @@ body {
   padding: 25px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .project-grid {
-    display: block;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .project-grid {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
   }
 }
 
@@ -164,7 +172,6 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-
   .featured,
   .projects {
     display: block;
@@ -199,8 +206,8 @@ body {
 footer {
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .social-link {
@@ -220,6 +227,10 @@ footer {
   opacity: 1;
 }
 
+.project-item img {
+  border-radius: 8px;
+}
+
 .project-item img,
 .featured a,
 .nav-button {
@@ -229,34 +240,25 @@ footer {
 .project-item a.project-link {
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project-item .view-project {
   font-size: 0.9em;
   color: #666;
   text-decoration: none;
-  opacity: 0;
-  visibility: hidden;
-  padding: 4px 8px;
-  border-radius: 4px;
-  margin-top: 4px;
-  display: inline-block;
-  transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+  margin: 8px 0;
+  display: block;
 }
 
-.project-item .view-project.demo {
-  background-color: #4CAF50;
-  color: white;
+.project-item .view-project {
+  color: #24292e;
+  font-size: 0.8em;
+  font-style: italic;
 }
 
-.project-item .view-project.repo {
-  background-color: #24292e;  /* GitHub's dark color */
-  color: white;
-}
-
-.project-item:hover .view-project,
-.project-item:focus-within .view-project {
-  opacity: 1;
-  visibility: visible;
+.project-link:hover {
+  font-weight: bold;
 }
