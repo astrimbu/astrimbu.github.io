@@ -1,11 +1,5 @@
-@font-face {
-  font-family: 'FantasqueSans';
-  src: url('../fonts/FantasqueSansMNerdFontMono-Regular.ttf') format('truetype');
-  font-display: swap;
-}
-
 body {
-  font-family: 'FantasqueSans', consolas, monospace;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
   align-items: center;
   text-align: center;
   margin: 0 auto;
