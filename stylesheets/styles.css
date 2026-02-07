@@ -17,6 +17,8 @@ body {
 .container {
   text-align: left;
   margin-top: 40px;
+  min-width: 320px;
+  max-width: 600px;
 }
 
 h1 {
@@ -43,4 +45,28 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.notes-content {
+  margin-top: 3em;
+}
+
+.notes-content h2 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+
+.notes-content p {
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
+
+.notes-content strong {
+  font-weight: bold;
+}
+
+.notes-content em {
+  font-style: italic;
 }

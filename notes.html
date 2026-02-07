@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notes - Alan.computer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Notes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">← Back to Home</a></li>
+      </ul>
+    </nav>
+    
+    <div class="notes-content" id="notes-content">
+      Loading notes...
+    </div>
+  </div>
+
+  <script>
+    fetch('notes/notes.md?t=' + Date.now(), { cache: 'no-store' })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to load notes.md');
+        }
+        return response.text();
+      })
+      .then(markdown => {
+        const html = marked.parse(markdown);
+        document.getElementById('notes-content').innerHTML = html;
+      })
+      .catch(error => {
+        document.getElementById('notes-content').innerHTML = '<p>Error loading notes.</p>';
+        console.error('Error:', error);
+      });
+  </script>
+</body>
+
+</html>

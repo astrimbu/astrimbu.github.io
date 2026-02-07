@@ -1,0 +1,13 @@
+## 2026-02-04
+
+**OpenClaw** research.
+
+*tl;dr - need more VRAM!*
+
+8B models are definitely not smart enough (yet). OpenClaw gets stuck in loops (e.g. failing to use the same tool over and over), and makes dumb mistakes (e.g. on compaction it sometimes saves memories to literally "YYYY-MM-DD.md").
+
+I am happy to have gotten OpenClaw running in a VM, communicating with a local Llamacpp server. I have been more of a Cursor-guy than a CC/Codex-guy, so this shape of tool was fun to experience for the first time.
+
+SOTA models with massive context windows seem more-or-less *required* for "real use" of OpenClaw. I'll continue experimenting to see what's possible on a low-VRAM server.
+
+OpenClaw feels like a big step toward personal AI assistants that learn over time. I'm excited to see how this type of tool evolves in 2026.
