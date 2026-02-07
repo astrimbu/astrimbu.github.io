@@ -51,6 +51,24 @@ nav a:hover {
   margin-top: 3em;
 }
 
+.notes-content ul {
+  list-style: none;
+}
+
+.notes-content li {
+  margin: 1em 0;
+}
+
+.notes-content a {
+  color: #00d700;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.notes-content a:hover {
+  text-decoration: underline;
+}
+
 .notes-content h2 {
   font-family: 'Crimson Pro', serif;
   font-size: 1.5em;

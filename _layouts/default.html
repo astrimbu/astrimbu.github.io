@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Notes - Alan.computer</title>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}Alan.computer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
-
 <body>
   <div class="container">
-    <h1>Notes</h1>
+    <h1>{% if page.title %}{{ page.title }}{% else %}Alan.computer{% endif %}</h1>
     <nav>
       <ul>
-        <li><a href="index.html">← Back to Home</a></li>
+        <li><a href="/">← Back to Home</a></li>
+        <li><a href="/notes.html">All Notes</a></li>
       </ul>
     </nav>
-    
     <div class="notes-content">
-      <ul>
-        <li><a href="notes/2026-02-04.md">2026-02-04</a></li>
-      </ul>
+      {{ content }}
     </div>
   </div>
 </body>
-
 </html>
